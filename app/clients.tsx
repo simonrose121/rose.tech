@@ -5,17 +5,21 @@ type Client = {
 	styles: Object;
 };
 
-export default function Clients() {
-	const svgWidth = '100%';
-	const svgHeight = '80px';
+export const clients = (
+	colour = 'white',
+	height = '80px',
+	width = '100%'
+): Array<Client> => {
+	const svgWidth = width.length > 0 ? width : undefined;
+	const svgHeight = height;
 
 	const svgStyles = {
-		fill: 'white',
+		fill: colour,
 		width: '100%',
 		maxHeight: '100%',
 	};
 
-	const clients: Array<Client> = [
+	return [
 		{
 			name: '542 Digital',
 			url: 'https://542.digital',
@@ -293,7 +297,9 @@ export default function Clients() {
 			styles: svgStyles,
 		},
 	];
+};
 
+export default function Clients() {
 	return (
 		<div className="bg-black py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -301,7 +307,7 @@ export default function Clients() {
 					Trusted across finance, education, advertising and academia.
 				</h2>
 				<div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-12 lg:mx-0 lg:max-w-none lg:grid-cols-7">
-					{clients.map((c) => (
+					{clients('white').map((c) => (
 						<a
 							href={c.url}
 							target="_blank"
