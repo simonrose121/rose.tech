@@ -9,9 +9,11 @@ export default function Hero() {
 			<div className="mx-auto min-h-full max-w-2xl py-32 sm:py-48 lg:py-56">
 				<div className="text-center">
 					<h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-						Cultivating Cultures,
+						Assessing Needs,
 						<br />
-						<span className="text-primary-500">Crafting Code</span>
+						<span className="text-primary-500">
+							Architecting Solutions.
+						</span>
 					</h1>
 					<p className="mt-6 text-lg leading-8 text-white">
 						Driving institutions and businesses towards software
