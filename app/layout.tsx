@@ -14,6 +14,35 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0"
+				/>
+				<title>
+					RoseTech | Specialists in creating and managing software
+					projects.
+				</title>
+				<meta
+					name="title"
+					content="RoseTech | Specialists in creating and managing software projects."
+				/>
+				<meta
+					name="description"
+					content="RoseTech are specialists in software creation and management, all the way through the project lifecycle."
+				/>
+				<meta
+					name="keywords"
+					content="software, management, consulting, development, process"
+				/>
+				<meta name="robots" content="index, follow" />
+				<meta
+					httpEquiv="Content-Type"
+					content="text/html; charset=utf-8"
+				/>
+				<meta name="language" content="English" />
+			</head>
 			<body>
 				<Header></Header>
 				{children}
