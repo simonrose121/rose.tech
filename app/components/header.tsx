@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export const navigation = {
 	pages: [
-		{ name: 'Home', href: '#' },
+		{ name: 'Home', href: '/' },
 		{ name: 'Case Studies', href: '/case-studies' },
 		{ name: 'Our Journey', href: '/our-journey' },
-		{ name: 'Contact Us', href: '#' },
+		{ name: 'Contact Us', href: '/contact-us' },
 	],
 	social: [
 		{
@@ -21,7 +21,7 @@ export const navigation = {
 				<svg
 					stroke="currentColor"
 					fill="currentColor"
-					stroke-width="0"
+					strokeWidth="0"
 					viewBox="0 0 448 512"
 					height="1em"
 					width="1em"

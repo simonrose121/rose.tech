@@ -12,7 +12,7 @@ export default function Hero() {
 						Assessing Needs,
 						<br />
 						<span className="text-primary-500">
-							Architecting Solutions.
+							Creating Solutions.
 						</span>
 					</h1>
 					<p className="mt-6 text-lg leading-8 text-white">
