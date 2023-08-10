@@ -4,9 +4,8 @@ import Header from './components/header';
 import Footer from './components/footer';
 
 export const metadata: Metadata = {
-	title: 'RoseTech | Assessing Needs, Architecting Solutions.',
-	description:
-		'Driving institutions and businesses towards software success.',
+	title: 'RoseTech | Assessing Needs, Creating Solutions.',
+	description: 'RoseTech drives organisations towards software success.',
 	icons: {
 		icon: '/icon.svg',
 	},
