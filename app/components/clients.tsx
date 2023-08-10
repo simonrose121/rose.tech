@@ -301,7 +301,7 @@ export const clients = (
 
 export default function Clients() {
 	return (
-		<div className="bg-black py-24 sm:py-32">
+		<div className="bg-black py-24 sm:py-32" id="clients">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="text-center text-lg leading-8 text-white">
 					Trusted across finance, edtech, academia and advertising.
