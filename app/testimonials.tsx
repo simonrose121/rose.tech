@@ -80,10 +80,11 @@ export default function Testimonials() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-xl text-center">
 					<h2 className="text-center text-lg leading-8 text-white">
-						Delivering results, time and again.
+						Don't take our word for it, see what our clients had to
+						say.
 					</h2>
 				</div>
-				<div className="mx-auto flow-root max-w-2xl sm:mt-10 lg:mx-0 lg:max-w-none">
+				<div className="mx-auto flow-root max-w-2xl mt-10 lg:mx-0 lg:max-w-none">
 					<div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
 						{testimonials.map((testimonial) => (
 							<div

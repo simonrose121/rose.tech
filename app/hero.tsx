@@ -16,8 +16,7 @@ export default function Hero() {
 						</span>
 					</h1>
 					<p className="mt-6 text-lg leading-8 text-white">
-						Driving institutions and businesses towards software
-						success.
+						Driving organisations towards software success.
 					</p>
 					<div className="mt-10 flex items-center justify-center gap-x-6">
 						<a

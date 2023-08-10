@@ -6,14 +6,14 @@ export default function Footer() {
 	return (
 		<footer className="bg-black border-t border-white/10">
 			<div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-				<div className="columns-2 sm:flex sm:justify-center sm:space-x-12">
+				<div className="flex justify-center">
 					<a href="#" className="-m-1.5 p-1.5">
 						<span className="sr-only">RoseTech</span>
 						<img className="h-8 w-auto" src="logo.svg" alt="" />
 					</a>
 				</div>
 				<nav
-					className="mt-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+					className="mt-6 text-center sm:flex sm:justify-center sm:space-x-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
