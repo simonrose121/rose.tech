@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { JSX, SVGProps, useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
@@ -16,7 +16,9 @@ export const navigation = {
 		{
 			name: 'LinkedIn',
 			href: 'https://www.linkedin.com/company/rosetechnologieslimited/',
-			icon: (props) => (
+			icon: (
+				props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+			) => (
 				<svg
 					stroke="currentColor"
 					fill="currentColor"
