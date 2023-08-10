@@ -1,6 +1,5 @@
 import Hero from './hero';
 import Clients from './clients';
-import { Metadata } from 'next';
 import Testimonials from './testimonials';
 
 export default function Home() {

@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Header from './header';
+import Footer from './footer';
 
 export const metadata: Metadata = {
 	title: 'RoseTech | Assessing Needs, Architecting Solutions.',
@@ -21,6 +22,7 @@ export default function RootLayout({
 			<body>
 				<Header></Header>
 				{children}
+				<Footer></Footer>
 			</body>
 		</html>
 	);
