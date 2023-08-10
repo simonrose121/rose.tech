@@ -59,6 +59,20 @@ export default function Testimonials() {
 			position: 'Research Fellow at Loughborough University',
 			image: 'https://media.licdn.com/dms/image/C5603AQFLoY5RC6DLWA/profile-displayphoto-shrink_800_800/0/1624324173318?e=1697068800&v=beta&t=MuqGNiKrLb386QhUjrf1owcCY4JK22ZiYcWo_nxZFaU',
 		},
+		{
+			logo: '542 Digital',
+			text: `Simon distinguishes himself by effectively using software capabilities and daring to explore and implement viable and innovative solutions that push organizational growth and business success. His vision, enthusiasm, and relentless determination for transformative software enhancements will be invaluable to any individual, business, or organization.`,
+			name: 'Wright Chukwuezi',
+			position: 'Front-end Software Engineer at 542 Digital',
+			image: 'https://media.licdn.com/dms/image/C5603AQHL_yMvRiq8Zg/profile-displayphoto-shrink_800_800/0/1581273297245?e=1697068800&v=beta&t=5z8jk3veVUO9FlM8ZAily2JnkhaekkKxSCa6jSAJODA',
+		},
+		{
+			logo: '542 Digital',
+			text: `As a team member and a leader, Simon is insightful, methodical, and flexible. These traits, coupled with immense measures of patience, make him an excellent manager of people, projects, and his own time. Working part-time in a 100% remote environment, I've seen him take the reins on and deliver quick-turnaround projects with cross-team dependencies, as well as implement new company processes over the course of months through consultation with stakeholders from junior to director level and the slow conversion of minds through action.`,
+			name: 'Laurie Hayes',
+			position: 'Project Manager at 542 Digital',
+			image: 'https://media.licdn.com/dms/image/C4D03AQG_nxDa4FmFUA/profile-displayphoto-shrink_800_800/0/1660719129342?e=1697068800&v=beta&t=tR17kNWli4xNr5R8q9XQLmapbeLABG3h74k2aHd6fiA',
+		},
 	];
 
 	return (

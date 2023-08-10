@@ -6,12 +6,18 @@ export default function Footer() {
 	return (
 		<footer className="bg-black border-t border-white/10">
 			<div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+				<div className="columns-2 sm:flex sm:justify-center sm:space-x-12">
+					<a href="#" className="-m-1.5 p-1.5">
+						<span className="sr-only">RoseTech</span>
+						<img className="h-8 w-auto" src="logo.svg" alt="" />
+					</a>
+				</div>
 				<nav
-					className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+					className="mt-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name} className="pb-6">
+						<div key={item.name}>
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"
@@ -21,7 +27,7 @@ export default function Footer() {
 						</div>
 					))}
 				</nav>
-				<div className="mt-10 flex justify-center space-x-10">
+				<div className="mt-6 flex justify-center space-x-10">
 					{navigation.social.map((item) => (
 						<a
 							key={item.name}
@@ -36,6 +42,9 @@ export default function Footer() {
 				<p className="mt-10 text-center text-xs leading-5 text-gray-500">
 					&copy; {new Date().getFullYear()} Rose Technologies Limited.
 					All rights reserved.
+					<br />
+					Rose Technologies Limited is a registered company in the UK
+					with company number 13572983.
 				</p>
 			</div>
 		</footer>
