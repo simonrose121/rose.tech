@@ -57,7 +57,9 @@ export default function Header() {
 				<div className="flex lg:hidden">
 					<button
 						type="button"
-						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+						className={`-m-2.5 items-center justify-center rounded-md p-2.5 text-white ${
+							mobileMenuOpen ? 'hidden' : 'inline-flex'
+						}`}
 						onClick={() => setMobileMenuOpen(true)}
 					>
 						<span className="sr-only">Open main menu</span>
@@ -69,7 +71,7 @@ export default function Header() {
 						<a
 							key={item.name}
 							href={item.href}
-							className="text-sm font-semibold leading-6 text-white"
+							className="text-sm font-semibold leading-6 text-white hover:text-gray-200"
 						>
 							{item.name}
 						</a>
@@ -83,7 +85,7 @@ export default function Header() {
 				onClose={setMobileMenuOpen}
 			>
 				<div className="fixed inset-0 z-10" />
-				<Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+				<Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between">
 						<a href="#" className="-m-1.5 p-1.5">
 							<span className="sr-only">RoseTech</span>
@@ -91,7 +93,7 @@ export default function Header() {
 						</a>
 						<button
 							type="button"
-							className="-m-2.5 rounded-md p-2.5 text-gray-700"
+							className="-m-2.5 rounded-md p-2.5 text-white"
 							onClick={() => setMobileMenuOpen(false)}
 						>
 							<span className="sr-only">Close menu</span>
@@ -105,7 +107,7 @@ export default function Header() {
 									<a
 										key={item.name}
 										href={item.href}
-										className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+										className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-900"
 									>
 										{item.name}
 									</a>
