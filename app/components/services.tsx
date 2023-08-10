@@ -17,7 +17,7 @@ const features = [
 	{
 		name: 'Technology transformation.',
 		description:
-			"We analyze, strategise and transform organisations to ensure they are robust, relevant and ready for the future's challenges.",
+			'We analyse, strategise and transform organisations to ensure they are ready for future challenges.',
 		icon: ArrowTrendingUpIcon,
 	},
 	{
@@ -29,7 +29,7 @@ const features = [
 	{
 		name: 'Building software teams.',
 		description:
-			"We hire engineers, designers and project managers to build software teams that are cohesive, talented, and deliver exceptional results tailored to your project's unique needs.",
+			'We hire engineers, designers and project managers to build software teams that are cohesive, talented and deliver exceptional results tailored to your needs.',
 		icon: UserGroupIcon,
 	},
 	{
