@@ -17,7 +17,7 @@ export default function Testimonials() {
 			and leadership.`,
 			name: 'Henry Hughes',
 			position: 'Technical Director at 542 Digital',
-			image: 'https://media.licdn.com/dms/image/D4E35AQHo4zH2ntQgcg/profile-framedphoto-shrink_800_800/0/1678371481776?e=1692180000&v=beta&t=KyG1VRJcfFyDIDEaDYfUsez98oa1ZHIx3cFKFa51M1o',
+			image: 'https://lh3.googleusercontent.com/a-/AD_cMMQOjnS1AhEqr2DA7D7YO8zxDEuM6b3JdkNHX1Mi0hFvxpc=s128-p-k-rw-no',
 		},
 		{
 			logo: '542 Digital',
