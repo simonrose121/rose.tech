@@ -34,6 +34,13 @@ export default function Testimonials() {
 			image: 'https://media.licdn.com/dms/image/D4E03AQGOQ_CxD5gRsQ/profile-displayphoto-shrink_800_800/0/1665827015299?e=1697068800&v=beta&t=6qtubzOudLT80ldcQRxcYyHlyt3LCTBD561-84RoHp4',
 		},
 		{
+			logo: 'Sheffield Hallam University',
+			text: 'Simon is exceptionally organised and is clear and concise in all aspects of his professional life. This is evident in the EPA process and materials that Simon designed (Simon onboarded myself and a colleague in the second year.) It is worth noting that the EPA role requires a high level of education along with strong corporate experience in software engineering, and in this regard Simon is the ideal assessor. Simon’s experience encourages trust and dependability, and makes him an excellent leader and assessor.',
+			name: 'Tanni Moyana',
+			position: 'Senior Lecturer at Sheffield Hallam University',
+			image: 'https://media.licdn.com/dms/image/C5603AQGBe9uOvhqOvA/profile-displayphoto-shrink_800_800/0/1596204931900?e=1697068800&v=beta&t=snHnsi0YwvFC1ls2Ko-efVNTG3KwIdcDOQJULWr5Ih8',
+		},
+		{
 			logo: '542 Digital',
 			text: `Simon has been at the forefront of driving innovation and change in the frontend team and 542. His technical prowess is evident in how he moves deftly between frontend React/Typescript (including Next.js), to backend Express.js applications, and configuration of CI/CD pipelines.`,
 			name: 'Oluwatobi Akanji',
