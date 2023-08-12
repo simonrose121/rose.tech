@@ -32,27 +32,10 @@ export default function ContactUs() {
 				<div className="relative px-6 pb-20 sm:pt-32 lg:static lg:px-8 lg:pt-56">
 					<div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
 						<p className="mt-6 text-white">
-							Please either call, email or fill out the form
-							below.
+							To get in touch, please either email us or fill in
+							the contact form below.
 						</p>
 						<dl className="mt-4 space-y-4 text-base leading-7 text-white">
-							<div className="flex gap-x-4">
-								<dt className="flex-none">
-									<span className="sr-only">Telephone</span>
-									<PhoneIcon
-										className="h-7 w-6 text-gray-400"
-										aria-hidden="true"
-									/>
-								</dt>
-								<dd>
-									<a
-										className="hover:text-white"
-										href="tel:+447791863017"
-									>
-										+447791863017
-									</a>
-								</dd>
-							</div>
 							<div className="flex gap-x-4">
 								<dt className="flex-none">
 									<span className="sr-only">Email</span>
