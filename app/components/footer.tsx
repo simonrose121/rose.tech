@@ -13,11 +13,11 @@ export default function Footer() {
 					</a>
 				</div>
 				<nav
-					className="mt-6 text-center sm:flex sm:justify-center sm:space-x-12"
+					className="mt-6 text-center sm:flex sm:justify-center sm:gap-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name}>
+						<div key={item.name} className="w-20">
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"

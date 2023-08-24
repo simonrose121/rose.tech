@@ -18,7 +18,7 @@ module.exports = {
 				},
 				secondary: {
 					500: '#C65B7C'
-				}
+				},
 			},
 		},
 	},

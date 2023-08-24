@@ -1,4 +1,4 @@
-type Client = {
+export type Client = {
 	name: string;
 	url: string;
 	svg: any;
@@ -174,6 +174,8 @@ export const clients = (
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 70.25 37.66"
+					width={svgWidth}
+					height={svgHeight}
 				>
 					<defs></defs>
 					<g id="Layer_2" data-name="Layer 2">
