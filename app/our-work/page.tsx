@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Client, clients } from '../components/clients';
 
 const logoColour = 'white';
@@ -51,7 +52,7 @@ const caseStudies: Array<CaseStudy> = [
 			(c) => c.name === 'Sheffield Hallam University'
 		),
 		href: '/our-work/end-point-assessment',
-		description: `Creating and conducting an assessment process for the next generation of tech leaders.`,
+		description: `Assessment processes for the next generation of tech leaders.`,
 		colour: '#B6004C',
 		bgUrl: 'epa.png',
 		name: 'End Point Assessment',
@@ -62,21 +63,32 @@ const caseStudies: Array<CaseStudy> = [
 			(c) => c.name === 'Loughborough University'
 		),
 		href: '/our-work/cognitive-function-task',
-		description: `Building a gamified assessment system to measure dyscalculia in children .`,
+		description: `A gamified assessment system to measure dyscalculia in children .`,
 		colour: '#6F3092',
 		bgUrl: 'numeralis.png',
 		name: 'Numeralis',
 	},
 	{
-		id: 5,
+		id: 6,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Loughborough University'
 		),
 		href: '/our-work/cognitive-function-task',
-		description: `Building a gamified assessment system to measure cognitive function.`,
+		description: `A gamified assessment system to measure cognitive function.`,
 		colour: '#6F3092',
 		bgUrl: 'cft.png',
 		name: 'Cognitive Function Task',
+	},
+	{
+		id: 5,
+		client: clients(logoColour, logoWidth, logoHeight).find(
+			(c) => c.name === 'Sheffield Hallam University'
+		),
+		href: '/our-work/pirate-plunder',
+		description: `A programming game to teach block-based procedural abstraction.`,
+		colour: '#6F3092',
+		bgUrl: 'pp.png',
+		name: 'Pirate Plunder',
 	},
 ];
 
@@ -97,16 +109,12 @@ export default function CaseStudies() {
 					{caseStudies.map((post) => {
 						if (post.client)
 							return (
-								<article
+								<Link
+									href={post.href}
 									key={post.id}
-									className="relative isolate flex flex-col justify-between overflow-hidden rounded-2xl py-8 gap-4 shadow-md cursor-pointer bg-gray-900 hover:scale-105 transition duration-300 ease-in-out"
+									className="relative isolate flex flex-row justify-between overflow-hidden rounded-2xl py-8 gap-4 shadow-md cursor-pointer bg-gray-900 hover:scale-105 transition duration-300 ease-in-out"
 								>
-									<img
-										src={`/our-work/thumbnails/${post.bgUrl}`}
-										alt=""
-										className="absolute -z-10 object-cover mix-blend-screen rotate-12 translate-x-52 translate-y-20 rounded-lg opacity-20"
-									/>
-									<div className="px-8 flex flex-col gap-4">
+									<div className="px-8 flex basis-2/3 flex-col gap-4">
 										<div className="fill-white flex justify-start w-24 h-auto">
 											{post.client.svg}
 										</div>
@@ -117,7 +125,17 @@ export default function CaseStudies() {
 											{post.description}
 										</p>
 									</div>
-								</article>
+									<div className="flex basis-1/3">
+										<img
+											src={`/our-work/thumbnails/${post.bgUrl}`}
+											alt=""
+											className="absolute -z-10 object-cover rotate-12 -translate-y-14 rounded-lg w-full h-96 shadow-lg"
+											style={{
+												objectPosition: 'left',
+											}}
+										/>
+									</div>
+								</Link>
 							);
 					})}
 				</div>
