@@ -10,11 +10,6 @@ export default function ContactUs() {
 
 	return (
 		<div className="relative isolate bg-black">
-			<img
-				src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80&auto=format&w=2830&q=80&blend=111827&sat=-100&exp=5&blend-mode=multiply"
-				alt=""
-				className="absolute inset-0 -z-10 h-full w-full object-cover"
-			/>
 			<div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
 				<div className="relative px-6 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
 					<div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">

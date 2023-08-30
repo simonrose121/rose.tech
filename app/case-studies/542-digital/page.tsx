@@ -22,7 +22,7 @@ export default function OurWork542() {
 				aria-hidden="true"
 			>
 				<div
-					className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-primary-500 to-gray-300 opacity-30"
+					className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-primary-500 to-tertiary-500 opacity-30"
 					style={{
 						clipPath:
 							'polygon(63.1% 29.6%, 100% 17.2%, 76.7% 3.1%, 48.4% 0.1%, 44.6% 4.8%, 54.5% 25.4%, 59.8% 49.1%, 55.3% 57.9%, 44.5% 57.3%, 27.8% 48%, 35.1% 81.6%, 0% 97.8%, 39.3% 100%, 35.3% 81.5%, 97.2% 52.8%, 63.1% 29.6%)',
@@ -127,8 +127,9 @@ export default function OurWork542() {
 										</strong>{' '}
 										We implemented industry standard project
 										management and software engineering
-										processes including Agile, code reviews,
-										coding standards and automated testing.
+										processes including Agile, versioning,
+										code reviews, coding standards and
+										automated testing.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -143,7 +144,9 @@ export default function OurWork542() {
 										We created a Figma design system that
 										allowed applications to be rapidly
 										prototyped for client review before a
-										line of code was written.
+										line of code was written. This was then
+										developed further when 542 hired Product
+										Designers.
 									</span>
 								</li>
 							</ul>
@@ -171,7 +174,7 @@ export default function OurWork542() {
 								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
 							/>
 						</svg>
-						<figure className="mt-10 border-l border-secondary-500 pl-9">
+						<figure className="mt-10 border-l border-gray-700 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been at the forefront of driving
@@ -261,7 +264,7 @@ export default function OurWork542() {
 						</div>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-secondary-500 pl-9">
+						<figure className="mt-10 border-l border-gray-700 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been an absolute pleasure to work
@@ -337,7 +340,7 @@ export default function OurWork542() {
 						</ul>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-secondary-500 pl-9">
+						<figure className="mt-10 border-l border-gray-700 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon is an exceptional talent. His

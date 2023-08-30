@@ -87,8 +87,8 @@ export default function Testimonials() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-xl text-center">
 					<h2 className="text-center text-lg leading-8 text-white">
-						Don't take our word for it, see what our clients had to
-						say.
+						But don't take our word for it, see what our clients had
+						to say.
 					</h2>
 				</div>
 				<div className="mx-auto flow-root max-w-2xl mt-10 lg:mx-0 lg:max-w-none">
@@ -98,13 +98,13 @@ export default function Testimonials() {
 								key={testimonial.name}
 								className="pt-8 sm:inline-block sm:w-full sm:px-4"
 							>
-								<figure className="rounded-2xl bg-gray-900 p-8 text-sm leading-6">
+								<figure className="rounded-2xl bg-black p-8 text-sm leading-6 shadow-lg ring-1 ring-tertiary-500">
 									<blockquote className="text-white">
 										<p>{`“${testimonial.text}”`}</p>
 									</blockquote>
 									<figcaption className="mt-6 flex items-center gap-x-4">
 										<img
-											className="h-10 w-10 rounded-full bg-gray-50"
+											className="h-10 w-10 rounded-full bg-gray-50 ring-1 ring-tertiary-500"
 											src={testimonial.image}
 											alt=""
 										/>
