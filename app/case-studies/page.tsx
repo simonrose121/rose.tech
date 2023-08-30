@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Client, clients } from '../components/clients';
 
 const logoColour = 'white';
-const logoWidth = '50px';
+const logoWidth = '40px';
 const logoHeight = '80px';
 
 type CaseStudy = {
@@ -21,18 +21,19 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === '542 Digital'
 		),
-		href: '/our-work/542-digital',
+		href: '/case-studies/542-digital',
 		description: `Technical strategy implementation, process transformation and growth consultancy.`,
 		bgUrl: '542.png',
 		colour: '#2C68FF',
+		name: '542 Digital',
 	},
 	{
 		id: 2,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'World Gold Council'
 		),
-		href: '/our-work/world-gold-council',
-		description: `Financial dashboards using a performant and reusable solution.`,
+		href: '/case-studies/world-gold-council',
+		description: `Development of financial dashboards using a performant and reusable solution.`,
 		bgUrl: 'wgc.png',
 		colour: '#886116',
 	},
@@ -41,8 +42,8 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'MTa Learning'
 		),
-		href: '/our-work/mta-learning',
-		description: `Product ownership, technical architecture and project management.`,
+		href: '/case-studies/mta-learning',
+		description: `Product ownership, technical architecture, hiring and project management.`,
 		bgUrl: 'mta.png',
 		colour: '#402867',
 	},
@@ -51,8 +52,8 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Sheffield Hallam University'
 		),
-		href: '/our-work/end-point-assessment',
-		description: `Assessment processes for the next generation of tech leaders.`,
+		href: '/case-studies/end-point-assessment',
+		description: `Creation and implementation of assessment processes for the next generation of tech leaders.`,
 		colour: '#B6004C',
 		bgUrl: 'epa.png',
 		name: 'End Point Assessment',
@@ -62,8 +63,8 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Loughborough University'
 		),
-		href: '/our-work/cognitive-function-task',
-		description: `A gamified assessment system to measure dyscalculia in children .`,
+		href: '/case-studies/cognitive-function-task',
+		description: `Design and development of a gamified assessment system to measure dyscalculia in children.`,
 		colour: '#6F3092',
 		bgUrl: 'numeralis.png',
 		name: 'Numeralis',
@@ -73,8 +74,8 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Loughborough University'
 		),
-		href: '/our-work/cognitive-function-task',
-		description: `A gamified assessment system to measure cognitive function.`,
+		href: '/case-studies/cognitive-function-task',
+		description: `Design and development of a gamified assessment system to measure cognitive function.`,
 		colour: '#6F3092',
 		bgUrl: 'cft.png',
 		name: 'Cognitive Function Task',
@@ -84,8 +85,8 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Sheffield Hallam University'
 		),
-		href: '/our-work/pirate-plunder',
-		description: `A programming game to teach block-based procedural abstraction.`,
+		href: '/case-studies/pirate-plunder',
+		description: `Design and development of a programming game to teach block-based procedural abstraction.`,
 		colour: '#6F3092',
 		bgUrl: 'pp.png',
 		name: 'Pirate Plunder',
@@ -96,34 +97,41 @@ export default function CaseStudies() {
 	return (
 		<div className="py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
+				<img
+					src="https://images.unsplash.com/photo-1692102578743-f45ca3208fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1543&q=80&blend=111827&sat=-100&exp=10&blend-mode=multiply"
+					alt=""
+					className="absolute inset-0 -z-10 h-full w-full object-cover"
+				/>
 				<div className="mx-auto max-w-2xl text-center">
 					<h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-						Our Work
+						Case Studies
 					</h2>
 					<p className="mt-2 text-lg leading-8 text-gray-200">
 						Read about how RoseTech have implemented software,
 						strategy and process for our clients.
 					</p>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+				<div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 					{caseStudies.map((post) => {
 						if (post.client)
 							return (
 								<Link
 									href={post.href}
 									key={post.id}
-									className="relative isolate flex flex-row justify-between overflow-hidden rounded-2xl py-8 gap-4 shadow-md cursor-pointer bg-gray-900 hover:scale-105 transition duration-300 ease-in-out"
+									className="relative isolate flex flex-row justify-between overflow-hidden rounded-2xl py-8 gap-4 shadow-lg cursor-pointer bg-gray-900 hover:scale-105 transition duration-300 ease-in-out"
 								>
-									<div className="px-8 flex basis-2/3 flex-col gap-4">
-										<div className="fill-white flex justify-start w-24 h-auto">
+									<div className="px-8 flex basis-2/3 flex-col text-base">
+										<div className="fill-white flex justify-start w-24 h-auto mb-6">
 											{post.client.svg}
 										</div>
-										<h2 className="font-semibold">
-											{post.name ?? post.client.name}
-										</h2>
-										<p className="flex">
-											{post.description}
-										</p>
+										<div>
+											<dt className="inline font-semibold">
+												{post.name ?? post.client.name}.
+											</dt>{' '}
+											<p className="inline text-gray-200">
+												{post.description}
+											</p>
+										</div>
 									</div>
 									<div className="flex basis-1/3">
 										<img
