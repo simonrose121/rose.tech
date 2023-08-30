@@ -17,7 +17,7 @@ export default function Footer() {
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name} className="w-20">
+						<div key={item.name} className="w-24">
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"

@@ -4,9 +4,14 @@ import {
 } from '@heroicons/react/20/solid';
 import {
 	ArrowPathRoundedSquareIcon,
+	BuildingStorefrontIcon,
+	DocumentIcon,
+	ListBulletIcon,
 	PaintBrushIcon,
+	PresentationChartLineIcon,
 	RectangleStackIcon,
 	UserGroupIcon,
+	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
 
 export default function OurWork542() {
@@ -54,77 +59,29 @@ export default function OurWork542() {
 						</svg>
 					</div>
 					<p className="text-xl">
-						In the 21 months we worked with 542 Digital, we
-						implemented sweeping technical, strategy and process
-						changes across the business. Culminating in a
-						consultancy project to handle business growth.
+						We implemented sweeping technical, strategy and process
+						changes across the business in the 21 months we worked
+						with 542 Digital. Transforming the business in a time of
+						rapid growth.
 					</p>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
-					<div className="relative lg:order-last lg:col-span-5">
-						<svg
-							className="absolute -top-[40rem] left-1 -z-10 h-[64rem] w-[175.5rem] -translate-x-1/2 stroke-gray-900/10 [mask-image:radial-gradient(64rem_64rem_at_111.5rem_0%,white,transparent)]"
-							aria-hidden="true"
-						>
-							<defs>
-								<pattern
-									id="e87443c8-56e4-4c20-9111-55b82fa704e3"
-									width={200}
-									height={200}
-									patternUnits="userSpaceOnUse"
-								>
-									<path d="M0.5 0V200M200 0.5L0 0.499983" />
-								</pattern>
-							</defs>
-							<rect
-								width="100%"
-								height="100%"
-								strokeWidth={0}
-								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
-							/>
-						</svg>
-						<figure className="mt-10 border-l border-secondary-500 pl-9">
-							<blockquote className="font-semibold">
-								<p>
-									“Simon has been at the forefront of driving
-									innovation and change in the frontend team
-									and 542. First, he was instrumental in
-									decoupling legacy React applications from a
-									monolithic Laravel application, upgrading
-									the technology stack to TypeScript and
-									implementing code review, versioning and
-									staggered deployment environments.”
-								</p>
-							</blockquote>
-							<figcaption className="mt-6 flex gap-x-4">
-								<img
-									className="h-6 w-6 flex-none rounded-full bg-gray-50"
-									src="https://media.licdn.com/dms/image/C5603AQH7pxqbHCeENQ/profile-displayphoto-shrink_800_800/0/1626779961863?e=1697068800&v=beta&t=614rVbT0cjGtoKVtU-wd-k3cRhp0P3-OqsewUmuxKzY"
-									alt=""
-								/>
-								<div className="text-sm leading-6">
-									<strong className="font-semibol">
-										Oluwatobi Akanji
-									</strong>{' '}
-									– Front-end Software Engineer at 542 Digital
-								</div>
-							</figcaption>
-						</figure>
-					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="mt-10 max-w-2xl">
 							<h2 className="text-lg font-semibold">
 								Front-end Expansion
 							</h2>
 							<p>
-								When RoseTech started working with 542 Digital
-								in July 2021, the front-end had been implemented
-								by a single engineer using vanilla JS and
-								jQuery. Whilst this was functional, an increase
-								in projects and requirements meant that it had
-								to be brought up to modern standards. We did the
-								following:
+								When Simon at RoseTech started working with 542
+								Digital in July 2021, the front-end of their web
+								applications had been implemented as a second
+								thought using vanilla JavaScript and jQuery.
+								Whilst this was functional, an increase in
+								projects and requirements meant that it had to
+								handle additional complexity and be more
+								maintainable and reusable.
 							</p>
+							<p>Here's what we did:</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
 									<RectangleStackIcon
@@ -191,6 +148,223 @@ export default function OurWork542() {
 								</li>
 							</ul>
 						</div>
+					</div>
+					<div className="relative lg:col-span-5">
+						<svg
+							className="absolute -top-[40rem] left-1 -z-10 h-[64rem] w-[175.5rem] -translate-x-1/2 stroke-gray-900/10 [mask-image:radial-gradient(64rem_64rem_at_111.5rem_0%,white,transparent)]"
+							aria-hidden="true"
+						>
+							<defs>
+								<pattern
+									id="e87443c8-56e4-4c20-9111-55b82fa704e3"
+									width={200}
+									height={200}
+									patternUnits="userSpaceOnUse"
+								>
+									<path d="M0.5 0V200M200 0.5L0 0.499983" />
+								</pattern>
+							</defs>
+							<rect
+								width="100%"
+								height="100%"
+								strokeWidth={0}
+								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
+							/>
+						</svg>
+						<figure className="mt-10 border-l border-secondary-500 pl-9">
+							<blockquote className="italic">
+								<p>
+									“Simon has been at the forefront of driving
+									innovation and change in the frontend team
+									and 542. First, he was instrumental in
+									decoupling legacy React applications from a
+									monolithic Laravel application, upgrading
+									the technology stack to TypeScript and
+									implementing code review, versioning and
+									staggered deployment environments.”
+								</p>
+							</blockquote>
+							<figcaption className="mt-6 flex gap-x-4">
+								<img
+									className="h-6 w-6 flex-none rounded-full bg-gray-50"
+									src="https://media.licdn.com/dms/image/C5603AQH7pxqbHCeENQ/profile-displayphoto-shrink_800_800/0/1626779961863?e=1697068800&v=beta&t=614rVbT0cjGtoKVtU-wd-k3cRhp0P3-OqsewUmuxKzY"
+									alt=""
+								/>
+								<div className="text-sm leading-6">
+									<strong className="font-semibol">
+										Oluwatobi Akanji
+									</strong>{' '}
+									– Front-end Software Engineer at 542 Digital
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div className="max-w-xl text-base leading-7 lg:col-span-7">
+						<div className="mt-10 max-w-2xl">
+							<h2 className="text-lg font-semibold">
+								Business Process Improvements
+							</h2>
+							<p>
+								542 grew from a small business (10 employees) to
+								an SME (40 employees) during our time working
+								with them. We led on implementing process across
+								the business to ease this transition.
+							</p>
+							<ul role="list" className="mt-8 max-w-xl space-y-8">
+								<li className="flex gap-x-3">
+									<ListBulletIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Consistent process across teams.
+										</strong>{' '}
+										We led on implementing software
+										development processes in the back-end
+										team, as well as advising other teams on
+										industry standard development practices.
+									</span>
+								</li>
+								<li className="flex gap-x-3">
+									<ViewColumnsIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Feasibility and project workflow.
+										</strong>{' '}
+										We worked with 542, their clients and
+										other partners on project feasibility,
+										requirements gathering and a staged
+										project workflow.
+									</span>
+								</li>
+								<li className="flex gap-x-3">
+									<DocumentIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Standardised documentation.
+										</strong>{' '}
+										We implemented Notion as 542's central
+										database for documentation and meeting
+										notes, including templates for project
+										management, software engineering and
+										design.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="relative lg:col-span-5">
+						<figure className="mt-10 border-l border-secondary-500 pl-9">
+							<blockquote className="italic">
+								<p>
+									“Simon has been an absolute pleasure to work
+									with during his time at 542 Digital. He
+									joined the company at the start of a period
+									of rapid growth. Throughout this, he has
+									been a key lead in process improvements/
+									implementation and also a leader in change
+									management. Amongst other important work, he
+									has led the change to implement agile
+									processes within multiple teams.”
+								</p>
+							</blockquote>
+							<figcaption className="mt-6 flex gap-x-4">
+								<img
+									className="h-6 w-6 flex-none rounded-full bg-gray-50"
+									src="https://media.licdn.com/dms/image/C4D03AQE-31tEwAgP-Q/profile-displayphoto-shrink_100_100/0/1570529214162?e=1698883200&v=beta&t=vOnGjbyqqvu6ejnZo_hOCyK7sR1uD7_iQPcxCSF6q34"
+									alt=""
+								/>
+								<div className="text-sm leading-6">
+									<strong className="font-semibol">
+										Anna Muir
+									</strong>{' '}
+									– Director of Project Management at 542
+									Digital
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div className="max-w-xl text-base leading-7 lg:col-span-7">
+						<div className="mt-10 max-w-2xl">
+							<h2 className="text-lg font-semibold">
+								Growth Consultancy
+							</h2>
+							<p>
+								We advised 542 on handling growth throughout our
+								time with them, culminating in a consultancy
+								project presented to senior leadership.
+							</p>
+						</div>
+						<ul role="list" className="mt-8 max-w-xl space-y-8">
+							<li className="flex gap-x-3">
+								<BuildingStorefrontIcon
+									className="mt-1 h-5 w-5 flex-none text-primary-500"
+									aria-hidden="true"
+								/>
+								<span>
+									<strong className="font-semibold">
+										Presentations to client.
+									</strong>{' '}
+									We gave several high level presentations to
+									542's clients justifying increased costs due
+									to necessary scaling based on their
+									requirements.
+								</span>
+							</li>
+							<li className="flex gap-x-3">
+								<PresentationChartLineIcon
+									className="mt-1 h-5 w-5 flex-none text-primary-500"
+									aria-hidden="true"
+								/>
+								<span>
+									<strong className="font-semibold">
+										Consultancy project.
+									</strong>{' '}
+									We worked closely with 542's senior
+									leadership team to capture the risks and
+									opportunities of growth, and presented a
+									consultancy project to them with
+									recommendations.
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div className="relative lg:col-span-5">
+						<figure className="mt-10 border-l border-secondary-500 pl-9">
+							<blockquote className="italic">
+								<p>
+									“Simon is an exceptional talent. His
+									expertise has been instrumental in the
+									ongoing success of our company. He joined us
+									in June 2021 as a front-end developer and
+									team leader and, in addition to those roles,
+									he quickly grasped our business goals and
+									challenges, and helped me and my
+									co-Directors to make informed decisions
+									about our growth strategy.”
+								</p>
+							</blockquote>
+							<figcaption className="mt-6 flex gap-x-4">
+								<img
+									className="h-6 w-6 flex-none rounded-full bg-gray-50"
+									src="https://media.licdn.com/dms/image/C5603AQFzxrgTLgiwYg/profile-displayphoto-shrink_100_100/0/1517438923680?e=1698883200&v=beta&t=pgURUzXspikTV5UXWvxjBFDaeVoqKrUMENxfHvHHyx0"
+									alt=""
+								/>
+								<div className="text-sm leading-6">
+									<strong className="font-semibol">
+										Simon Walsworth
+									</strong>{' '}
+									– Director at 542 Digital
+								</div>
+							</figcaption>
+						</figure>
 					</div>
 				</div>
 			</div>
