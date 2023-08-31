@@ -81,7 +81,7 @@ const caseStudies: Array<CaseStudy> = [
 		name: 'Cognitive Function Task',
 	},
 	{
-		id: 5,
+		id: 7,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Sheffield Hallam University'
 		),
@@ -90,6 +90,17 @@ const caseStudies: Array<CaseStudy> = [
 		colour: '#6F3092',
 		bgUrl: 'pp.png',
 		name: 'Pirate Plunder',
+	},
+	{
+		id: 7,
+		client: clients(logoColour, logoWidth, logoHeight).find(
+			(c) => c.name === 'Lloyds Pharmacy'
+		),
+		href: '/case-studies/lloyds-pharmacy',
+		description: `Development of an animated advertising banner process to market Lloyds Pharmacy products.`,
+		colour: '#6F3092',
+		bgUrl: 'lp.png',
+		name: 'Lloyds Pharmacy',
 	},
 ];
 
