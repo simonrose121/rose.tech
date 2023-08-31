@@ -46,6 +46,7 @@ const caseStudies: Array<CaseStudy> = [
 		description: `Product ownership, technical architecture, hiring and project management.`,
 		bgUrl: 'mta.png',
 		colour: '#402867',
+		name: 'MTa Immersion',
 	},
 	{
 		id: 4,
@@ -80,28 +81,28 @@ const caseStudies: Array<CaseStudy> = [
 		bgUrl: 'cft.png',
 		name: 'Cognitive Function Task',
 	},
-	{
-		id: 7,
-		client: clients(logoColour, logoWidth, logoHeight).find(
-			(c) => c.name === 'Sheffield Hallam University'
-		),
-		href: '/case-studies/pirate-plunder',
-		description: `Design and development of a programming game to teach block-based procedural abstraction.`,
-		colour: '#6F3092',
-		bgUrl: 'pp.png',
-		name: 'Pirate Plunder',
-	},
-	{
-		id: 7,
-		client: clients(logoColour, logoWidth, logoHeight).find(
-			(c) => c.name === 'Lloyds Pharmacy'
-		),
-		href: '/case-studies/lloyds-pharmacy',
-		description: `Development of an animated advertising banner process to market Lloyds Pharmacy products.`,
-		colour: '#6F3092',
-		bgUrl: 'lp.png',
-		name: 'Lloyds Pharmacy',
-	},
+	// {
+	// 	id: 7,
+	// 	client: clients(logoColour, logoWidth, logoHeight).find(
+	// 		(c) => c.name === 'Sheffield Hallam University'
+	// 	),
+	// 	href: '/case-studies/pirate-plunder',
+	// 	description: `Design and development of a programming game to teach block-based procedural abstraction.`,
+	// 	colour: '#6F3092',
+	// 	bgUrl: 'pp.png',
+	// 	name: 'Pirate Plunder',
+	// },
+	// {
+	// 	id: 8,
+	// 	client: clients(logoColour, logoWidth, logoHeight).find(
+	// 		(c) => c.name === 'Lloyds Pharmacy'
+	// 	),
+	// 	href: '/case-studies/lloyds-pharmacy',
+	// 	description: `Optimisation of animated advertising banner creation process using Figma.`,
+	// 	colour: '#6F3092',
+	// 	bgUrl: 'lp.png',
+	// 	name: 'Advertising Banners',
+	// },
 ];
 
 export default function CaseStudies() {

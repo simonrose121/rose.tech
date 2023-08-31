@@ -98,9 +98,9 @@ export default function CaseStudy542() {
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="font-semibold">
+							<h2 className="font-semibold relative">
 								<CodeBracketIcon
-									className="mt-1 h-10 w-10 flex-none text-white"
+									className="isolate w-10 h-10 text-white opacity-20"
 									aria-hidden="true"
 								/>
 								Front-end Expansion
@@ -238,7 +238,7 @@ export default function CaseStudy542() {
 						<div className="max-w-2xl">
 							<h2 className="font-semibold">
 								<ArrowPathIcon
-									className="mt-1 h-10 w-10 flex-none text-white"
+									className="isolate w-10 h-10 text-white opacity-20"
 									aria-hidden="true"
 								/>
 								Business Process Improvements
@@ -334,7 +334,7 @@ export default function CaseStudy542() {
 						<div className="max-w-2xl">
 							<h2 className="font-semibold">
 								<ArrowTrendingUpIcon
-									className="mt-1 h-10 w-10 flex-none text-white"
+									className="isolate w-10 h-10 text-white opacity-20"
 									aria-hidden="true"
 								/>
 								Growth Consultancy
