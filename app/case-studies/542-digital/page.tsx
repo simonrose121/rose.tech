@@ -1,6 +1,9 @@
 import {
+	ArrowPathIcon,
 	ArrowPathRoundedSquareIcon,
+	ArrowTrendingUpIcon,
 	BuildingStorefrontIcon,
+	CodeBracketIcon,
 	DocumentIcon,
 	ListBulletIcon,
 	PaintBrushIcon,
@@ -95,10 +98,14 @@ export default function CaseStudy542() {
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="text-lg font-semibold">
+							<h2 className="font-semibold">
+								<CodeBracketIcon
+									className="mt-1 h-10 w-10 flex-none text-white"
+									aria-hidden="true"
+								/>
 								Front-end Expansion
 							</h2>
-							<p>
+							<p className="mt-2">
 								When Simon at RoseTech started working with 542
 								Digital in July 2021, the front-end of their web
 								applications had been implemented using vanilla
@@ -199,7 +206,7 @@ export default function CaseStudy542() {
 								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
 							/>
 						</svg>
-						<figure className="mt-10 border-l border-gray-700 pl-9">
+						<figure className="mt-20 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been at the forefront of driving
@@ -219,7 +226,7 @@ export default function CaseStudy542() {
 									alt=""
 								/>
 								<div className="text-sm leading-6">
-									<strong className="font-semibol">
+									<strong className="font-semibold">
 										Oluwatobi Akanji
 									</strong>{' '}
 									– Front-end Software Engineer at 542 Digital
@@ -229,10 +236,14 @@ export default function CaseStudy542() {
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="text-lg font-semibold">
+							<h2 className="font-semibold">
+								<ArrowPathIcon
+									className="mt-1 h-10 w-10 flex-none text-white"
+									aria-hidden="true"
+								/>
 								Business Process Improvements
 							</h2>
-							<p>
+							<p className="mt-2">
 								542 grew from a small business (10 employees) to
 								an SME (40 employees) during our time working
 								with them. We led on implementing process across
@@ -289,7 +300,7 @@ export default function CaseStudy542() {
 						</div>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-gray-700 pl-9">
+						<figure className="mt-20 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been an absolute pleasure to work
@@ -310,7 +321,7 @@ export default function CaseStudy542() {
 									alt=""
 								/>
 								<div className="text-sm leading-6">
-									<strong className="font-semibol">
+									<strong className="font-semibold">
 										Anna Muir
 									</strong>{' '}
 									– Director of Project Management at 542
@@ -321,10 +332,14 @@ export default function CaseStudy542() {
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="text-lg font-semibold">
+							<h2 className="font-semibold">
+								<ArrowTrendingUpIcon
+									className="mt-1 h-10 w-10 flex-none text-white"
+									aria-hidden="true"
+								/>
 								Growth Consultancy
 							</h2>
-							<p>
+							<p className="mt-2">
 								We advised 542 on handling growth throughout our
 								time with them, culminating in a consultancy
 								project presented to senior leadership.
@@ -365,7 +380,7 @@ export default function CaseStudy542() {
 						</ul>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-gray-700 pl-9">
+						<figure className="mt-20 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon is an exceptional talent. His
@@ -386,7 +401,7 @@ export default function CaseStudy542() {
 									alt=""
 								/>
 								<div className="text-sm leading-6">
-									<strong className="font-semibol">
+									<strong className="font-semibold">
 										Simon Walsworth
 									</strong>{' '}
 									– Director at 542 Digital
