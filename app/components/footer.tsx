@@ -26,6 +26,14 @@ export default function Footer() {
 							</a>
 						</div>
 					))}
+					<div className="w-24">
+						<a
+							href="/contact-us"
+							className="text-sm leading-6 text-white hover:text-gray-200"
+						>
+							Contact Us
+						</a>
+					</div>
 				</nav>
 				<div className="mt-6 flex justify-center space-x-10">
 					{navigation.social.map((item) => (

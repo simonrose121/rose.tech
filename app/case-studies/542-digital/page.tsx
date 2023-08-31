@@ -10,6 +10,13 @@ import {
 	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
 
+const stats = [
+	{ label: 'Projects Delivered', value: '27' },
+	{ label: 'Company Growth', value: '400%' },
+	{ label: 'Hires', value: '8' },
+	{ label: 'Turnover', value: '£4m' },
+];
+
 export default function CaseStudy542() {
 	return (
 		<div className="relative isolate overflow-hidden py-24 sm:py-32">
@@ -72,22 +79,33 @@ export default function CaseStudy542() {
 						with 542 Digital. Transforming the business in a time of
 						rapid growth.
 					</p>
+					<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
+						{stats.map((stat, statIdx) => (
+							<div key={statIdx}>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
+								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+									{stat.value}
+								</dd>
+							</div>
+						))}
+					</dl>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<h2 className="text-lg font-semibold">
 								Front-end Expansion
 							</h2>
 							<p>
 								When Simon at RoseTech started working with 542
 								Digital in July 2021, the front-end of their web
-								applications had been implemented as a second
-								thought using vanilla JavaScript and jQuery.
-								Whilst this was functional, an increase in
-								project complexity meant that the front-end
-								needed to be overhauled both technically and as
-								a team.
+								applications had been implemented using vanilla
+								JavaScript and jQuery. Whilst this was
+								functional, an increase in project complexity
+								meant that the front-end needed to be overhauled
+								both technically and as a team.
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -119,7 +137,7 @@ export default function CaseStudy542() {
 										</strong>{' '}
 										We hired and led a talented team of 5
 										Software Engineers, 2 Product Designers
-										and 1 project manager, delivering 26
+										and 1 Project Manager, delivering 26
 										projects across our time at 542 Digital.
 									</span>
 								</li>
@@ -210,7 +228,7 @@ export default function CaseStudy542() {
 						</figure>
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<h2 className="text-lg font-semibold">
 								Business Process Improvements
 							</h2>
@@ -302,7 +320,7 @@ export default function CaseStudy542() {
 						</figure>
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<h2 className="text-lg font-semibold">
 								Growth Consultancy
 							</h2>

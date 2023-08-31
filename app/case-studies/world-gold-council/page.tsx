@@ -1,18 +1,23 @@
 import {
 	ArrowPathRoundedSquareIcon,
-	BuildingStorefrontIcon,
-	DocumentIcon,
-	ListBulletIcon,
+	ClockIcon,
+	ExclamationTriangleIcon,
 	PaintBrushIcon,
-	PresentationChartLineIcon,
-	RectangleStackIcon,
+	SquaresPlusIcon,
+	TrophyIcon,
+	UserCircleIcon,
 	UserGroupIcon,
-	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
+
+const stats = [
+	{ label: 'Projects Delivered', value: '27' },
+	{ label: 'Performance Boost', value: '60%' },
+	{ label: 'User Satisfaction Rate', value: '90%' },
+];
 
 export default function CaseStudyWGC() {
 	return (
-		<div className="relative isolate overflow-hidden py-24 sm:py-32">
+		<div className="relative isolate py-24 sm:py-32">
 			<div
 				className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
 				aria-hidden="true"
@@ -68,313 +73,109 @@ export default function CaseStudyWGC() {
 					</div>
 					<p className="text-xl">
 						We designed and developed financial dashboards and
-						websites for the World Gold Council based on their user
-						requirements.
+						websites for the World Gold Council.
 					</p>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
+						<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
+							{stats.map((stat, statIdx) => (
+								<div key={statIdx}>
+									<dt className="text-sm leading-6 text-grey-200">
+										{stat.label}
+									</dt>
+									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+										{stat.value}
+									</dd>
+								</div>
+							))}
+						</dl>
 						<div className="mt-10 max-w-2xl">
-							<h2 className="text-lg font-semibold">
-								Front-end Expansion
-							</h2>
 							<p>
-								When Simon at RoseTech started working with 542
-								Digital in July 2021, the front-end of their web
-								applications had been implemented as a second
-								thought using vanilla JavaScript and jQuery.
-								Whilst this was functional, an increase in
-								projects and requirements meant that it had to
-								handle additional complexity and be more
-								maintainable and reusable.
+								We worked with WGC during our time at 542
+								Digital. 542's front-end team, led by Simon,
+								implemented a suite of web applications using
+								React, Redux, TypeScript and Next.js. This
+								included both internal dashboards for WGC's
+								analysts and user-facing websites to promote
+								gold as an investment.
 							</p>
-							<p>Here's what we did:</p>
+							<p className="mt-3">
+								Using our software development expertise, we
+								ensured high-quality software using the
+								following principles:
+							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
-									<RectangleStackIcon
+									<UserCircleIcon
 										className="mt-1 h-5 w-5 flex-none text-primary-500"
 										aria-hidden="true"
 									/>
 									<span>
 										<strong className="font-semibold">
-											Decoupled and overhauled the tech
-											stack.
+											Client-driven.
 										</strong>{' '}
-										We decoupled the front-end projects from
-										a large PHP Laravel application,
-										standardised the front-end tech stack to
-										React/Redux and TypeScript and
-										implemented a separate deployment
-										pipeline using Gitlab CI/CD and AWS.
+										We worked alongside key stakeholders at
+										the World Gold Council to ensure we
+										delivered software that met their
+										complex requirements, and was delivered
+										within budget and to deadline.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
-									<UserGroupIcon
+									<SquaresPlusIcon
 										className="mt-1 h-5 w-5 flex-none text-primary-500"
 										aria-hidden="true"
 									/>
 									<span>
 										<strong className="font-semibold">
-											Built and led a front-end team.
+											Maintainable and extendable.
 										</strong>{' '}
-										We hired and led a talented team of 5
-										Software Engineers, 2 Product Designers
-										and 1 project manager, delivering 26
-										projects across our time at 542 Digital.
+										We implemented a reusable library that
+										shared logic between projects, and
+										ensured that our code was
+										well-documented and tested. This meant
+										that we could deliver new features
+										quickly and with confidence.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
-									<ArrowPathRoundedSquareIcon
+									<TrophyIcon
 										className="mt-1 h-5 w-5 flex-none text-primary-500"
 										aria-hidden="true"
 									/>
 									<span>
 										<strong className="font-semibold">
-											Implemented standards and process.
+											Performant.
 										</strong>{' '}
-										We implemented industry standard project
-										management and software engineering
-										processes including Agile, versioning,
-										code reviews, coding standards and
-										automated testing.
-									</span>
-								</li>
-								<li className="flex gap-x-3">
-									<PaintBrushIcon
-										className="mt-1 h-5 w-5 flex-none text-primary-500"
-										aria-hidden="true"
-									/>
-									<span>
-										<strong className="font-semibold">
-											Design as part of the process.
-										</strong>{' '}
-										We created a Figma design system that
-										allowed applications to be rapidly
-										prototyped for client review before a
-										line of code was written. This was then
-										developed further when 542 hired Product
-										Designers.
+										The large data sets we were working with
+										presented performance challenges. We
+										used bundle optimisation and API
+										endpoint caching to reduce time-to-load
+										for users.
 									</span>
 								</li>
 							</ul>
 						</div>
+						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
+							<div>
+								<dt className="text-sm leading-6 text-grey-200">
+									Technologies Used
+								</dt>
+								<dd className="text-md font-bold tracking-tight text-white">
+									React, Next.js, Redux, TypeScript, SCSS,
+									Docker, Kubernetes, Storybook, Jest, Ant
+									Design, Figma
+								</dd>
+							</div>
+						</dl>
 					</div>
-					<div className="relative lg:col-span-5">
-						<svg
-							className="absolute -top-[40rem] left-1 -z-10 h-[64rem] w-[175.5rem] -translate-x-1/2 stroke-gray-900/10 [mask-image:radial-gradient(64rem_64rem_at_111.5rem_0%,white,transparent)]"
-							aria-hidden="true"
-						>
-							<defs>
-								<pattern
-									id="e87443c8-56e4-4c20-9111-55b82fa704e3"
-									width={200}
-									height={200}
-									patternUnits="userSpaceOnUse"
-								>
-									<path d="M0.5 0V200M200 0.5L0 0.499983" />
-								</pattern>
-							</defs>
-							<rect
-								width="100%"
-								height="100%"
-								strokeWidth={0}
-								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
-							/>
-						</svg>
-						<figure className="mt-10 border-l border-gray-700 pl-9">
-							<blockquote className="italic">
-								<p>
-									“Simon has been at the forefront of driving
-									innovation and change in the frontend team
-									and 542. First, he was instrumental in
-									decoupling legacy React applications from a
-									monolithic Laravel application, upgrading
-									the technology stack to TypeScript and
-									implementing code review, versioning and
-									staggered deployment environments.”
-								</p>
-							</blockquote>
-							<figcaption className="mt-6 flex gap-x-4">
-								<img
-									className="h-6 w-6 flex-none rounded-full bg-gray-50"
-									src="https://media.licdn.com/dms/image/C5603AQH7pxqbHCeENQ/profile-displayphoto-shrink_800_800/0/1626779961863?e=1697068800&v=beta&t=614rVbT0cjGtoKVtU-wd-k3cRhp0P3-OqsewUmuxKzY"
-									alt=""
-								/>
-								<div className="text-sm leading-6">
-									<strong className="font-semibol">
-										Oluwatobi Akanji
-									</strong>{' '}
-									– Front-end Software Engineer at 542 Digital
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
-							<h2 className="text-lg font-semibold">
-								Business Process Improvements
-							</h2>
-							<p>
-								542 grew from a small business (10 employees) to
-								an SME (40 employees) during our time working
-								with them. We led on implementing process across
-								the business to ease this transition.
-							</p>
-							<ul role="list" className="mt-8 max-w-xl space-y-8">
-								<li className="flex gap-x-3">
-									<ListBulletIcon
-										className="mt-1 h-5 w-5 flex-none text-primary-500"
-										aria-hidden="true"
-									/>
-									<span>
-										<strong className="font-semibold">
-											Consistent process across teams.
-										</strong>{' '}
-										We led on implementing software
-										development processes in the back-end
-										team, as well as advising other teams on
-										industry standard development practices.
-									</span>
-								</li>
-								<li className="flex gap-x-3">
-									<ViewColumnsIcon
-										className="mt-1 h-5 w-5 flex-none text-primary-500"
-										aria-hidden="true"
-									/>
-									<span>
-										<strong className="font-semibold">
-											Feasibility and project workflow.
-										</strong>{' '}
-										We worked with 542, their clients and
-										other partners on project feasibility,
-										requirements gathering and a staged
-										project workflow.
-									</span>
-								</li>
-								<li className="flex gap-x-3">
-									<DocumentIcon
-										className="mt-1 h-5 w-5 flex-none text-primary-500"
-										aria-hidden="true"
-									/>
-									<span>
-										<strong className="font-semibold">
-											Standardised documentation.
-										</strong>{' '}
-										We implemented Notion as 542's central
-										database for documentation and meeting
-										notes, including templates for project
-										management, software engineering and
-										design.
-									</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-gray-700 pl-9">
-							<blockquote className="italic">
-								<p>
-									“Simon has been an absolute pleasure to work
-									with during his time at 542 Digital. He
-									joined the company at the start of a period
-									of rapid growth. Throughout this, he has
-									been a key lead in process improvements/
-									implementation and also a leader in change
-									management. Amongst other important work, he
-									has led the change to implement agile
-									processes within multiple teams.”
-								</p>
-							</blockquote>
-							<figcaption className="mt-6 flex gap-x-4">
-								<img
-									className="h-6 w-6 flex-none rounded-full bg-gray-50"
-									src="https://media.licdn.com/dms/image/C4D03AQE-31tEwAgP-Q/profile-displayphoto-shrink_100_100/0/1570529214162?e=1698883200&v=beta&t=vOnGjbyqqvu6ejnZo_hOCyK7sR1uD7_iQPcxCSF6q34"
-									alt=""
-								/>
-								<div className="text-sm leading-6">
-									<strong className="font-semibol">
-										Anna Muir
-									</strong>{' '}
-									– Director of Project Management at 542
-									Digital
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
-							<h2 className="text-lg font-semibold">
-								Growth Consultancy
-							</h2>
-							<p>
-								We advised 542 on handling growth throughout our
-								time with them, culminating in a consultancy
-								project presented to senior leadership.
-							</p>
-						</div>
-						<ul role="list" className="mt-8 max-w-xl space-y-8">
-							<li className="flex gap-x-3">
-								<BuildingStorefrontIcon
-									className="mt-1 h-5 w-5 flex-none text-primary-500"
-									aria-hidden="true"
-								/>
-								<span>
-									<strong className="font-semibold">
-										Presentations to client.
-									</strong>{' '}
-									We gave several high level presentations to
-									542's clients justifying increased costs due
-									to necessary scaling based on their
-									requirements.
-								</span>
-							</li>
-							<li className="flex gap-x-3">
-								<PresentationChartLineIcon
-									className="mt-1 h-5 w-5 flex-none text-primary-500"
-									aria-hidden="true"
-								/>
-								<span>
-									<strong className="font-semibold">
-										Consultancy project.
-									</strong>{' '}
-									We worked closely with 542's senior
-									leadership team to capture the risks and
-									opportunities of growth, and presented a
-									consultancy project to them with
-									recommendations.
-								</span>
-							</li>
-						</ul>
-					</div>
-					<div className="relative lg:col-span-5">
-						<figure className="mt-10 border-l border-gray-700 pl-9">
-							<blockquote className="italic">
-								<p>
-									“Simon is an exceptional talent. His
-									expertise has been instrumental in the
-									ongoing success of our company. He joined us
-									in June 2021 as a front-end developer and
-									team leader and, in addition to those roles,
-									he quickly grasped our business goals and
-									challenges, and helped me and my
-									co-Directors to make informed decisions
-									about our growth strategy.”
-								</p>
-							</blockquote>
-							<figcaption className="mt-6 flex gap-x-4">
-								<img
-									className="h-6 w-6 flex-none rounded-full bg-gray-50"
-									src="https://media.licdn.com/dms/image/C5603AQFzxrgTLgiwYg/profile-displayphoto-shrink_100_100/0/1517438923680?e=1698883200&v=beta&t=pgURUzXspikTV5UXWvxjBFDaeVoqKrUMENxfHvHHyx0"
-									alt=""
-								/>
-								<div className="text-sm leading-6">
-									<strong className="font-semibol">
-										Simon Walsworth
-									</strong>{' '}
-									– Director at 542 Digital
-								</div>
-							</figcaption>
-						</figure>
+					<div className="relative mt-10 lg:col-span-5 lg:sticky lg:overflow-hidden">
+						<img
+							className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+							src="/our-work/wgc/gram.png"
+							alt=""
+						/>
 					</div>
 				</div>
 			</div>
