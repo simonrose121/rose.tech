@@ -98,13 +98,13 @@ export default function Testimonials() {
 								key={testimonial.name}
 								className="pt-8 sm:inline-block sm:w-full sm:px-4"
 							>
-								<figure className="rounded-2xl bg-black p-8 text-sm leading-6 shadow-lg ring-1 ring-tertiary-500">
+								<figure className="rounded-2xl bg-black p-8 text-sm leading-6 shadow-md ring-1 ring-grey-500 ">
 									<blockquote className="text-white">
 										<p>{`“${testimonial.text}”`}</p>
 									</blockquote>
 									<figcaption className="mt-6 flex items-center gap-x-4">
 										<img
-											className="h-10 w-10 rounded-full bg-gray-50 ring-1 ring-tertiary-500"
+											className="h-10 w-10 rounded-full bg-gray-50 ring-1 ring-grey-500"
 											src={testimonial.image}
 											alt=""
 										/>
