@@ -20,14 +20,14 @@ export default function Hero() {
 					</p>
 					<div className="mt-10 flex items-center justify-center gap-x-6">
 						<a
-							href="#clients"
-							className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							href="/case-studies"
+							className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
 						>
 							Learn More
 						</a>
 						<a
 							href="/contact-us"
-							className="text-sm font-semibold leading-6 text-white"
+							className="text-sm leading-6 text-white"
 						>
 							Contact Us <span aria-hidden="true">→</span>
 						</a>

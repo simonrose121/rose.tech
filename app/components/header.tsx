@@ -9,7 +9,6 @@ export const navigation = {
 		{ name: 'Home', href: '/' },
 		{ name: 'Case Studies', href: '/case-studies' },
 		// { name: 'Our Journey', href: '/our-journey' },
-		{ name: 'Contact Us', href: '/contact-us' },
 	],
 	social: [
 		{
@@ -71,11 +70,17 @@ export default function Header() {
 						<a
 							key={item.name}
 							href={item.href}
-							className="text-sm font-semibold leading-6 text-white hover:text-gray-200"
+							className="text-sm leading-6 text-white hover:text-gray-200 flex items-center"
 						>
 							{item.name}
 						</a>
 					))}
+					<a
+						href="/contact-us"
+						className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+					>
+						Contact Us
+					</a>
 				</div>
 			</nav>
 			<Dialog
