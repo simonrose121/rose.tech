@@ -42,7 +42,7 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'MTa Learning'
 		),
-		href: '/case-studies/mta-learning',
+		href: '/case-studies/mta-immersion',
 		description: `Product ownership, technical architecture, hiring and project management.`,
 		bgUrl: 'mta.png',
 		colour: '#402867',
