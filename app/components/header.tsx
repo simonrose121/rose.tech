@@ -3,6 +3,7 @@
 import { JSX, SVGProps, useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { usePathname } from 'next/navigation';
 
 export const navigation = {
 	pages: [
@@ -36,6 +37,7 @@ export const navigation = {
 
 export default function Header() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+	const pathname = usePathname();
 
 	return (
 		<header className="absolute inset-x-0 top-0 z-50">
@@ -66,15 +68,20 @@ export default function Header() {
 					</button>
 				</div>
 				<div className="hidden lg:flex lg:gap-x-12">
-					{navigation.pages.map((item) => (
-						<a
-							key={item.name}
-							href={item.href}
-							className="text-sm leading-6 text-white hover:text-gray-200 flex items-center"
-						>
-							{item.name}
-						</a>
-					))}
+					{navigation.pages.map((item) => {
+						const active = pathname === item.href;
+						return (
+							<a
+								key={item.name}
+								href={item.href}
+								className={`text-sm leading-6 text-white hover:text-gray-200 flex items-center underline-offset-2 ${
+									active ? 'underline' : ''
+								}`}
+							>
+								{item.name}
+							</a>
+						);
+					})}
 					<a
 						href="/contact-us"
 						className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
@@ -108,15 +115,26 @@ export default function Header() {
 					<div className="mt-6 flow-root">
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 py-6">
-								{navigation.pages.map((item) => (
-									<a
-										key={item.name}
-										href={item.href}
-										className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-900"
-									>
-										{item.name}
-									</a>
-								))}
+								{navigation.pages.map((item) => {
+									const active = pathname === item.href;
+									return (
+										<a
+											key={item.name}
+											href={item.href}
+											className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-grey-800 ${
+												active ? 'underline' : ''
+											}`}
+										>
+											{item.name}
+										</a>
+									);
+								})}
+								<a
+									href="/contact-us"
+									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-grey-800"
+								>
+									Contact Us
+								</a>
 							</div>
 						</div>
 					</div>
