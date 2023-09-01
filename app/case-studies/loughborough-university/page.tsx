@@ -1,19 +1,16 @@
 import { clients } from '@/app/components/clients';
 import {
 	AcademicCapIcon,
-	ChatBubbleLeftRightIcon,
-	ComputerDesktopIcon,
-	GlobeEuropeAfricaIcon,
 	LockClosedIcon,
 	PuzzlePieceIcon,
-	SquaresPlusIcon,
 	UserCircleIcon,
-	ViewColumnsIcon,
 	WrenchIcon,
 } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
-const stats = [{ label: 'Projects Delivered', value: '2' }];
+const stats = [
+	{ label: 'Projects Delivered', value: '2' },
+	{ label: 'Users', value: '300+' },
+];
 
 export default function CaseStudyMTa() {
 	return (
@@ -67,7 +64,7 @@ export default function CaseStudyMTa() {
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						{/* <dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
+						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 							{stats.map((stat, statIdx) => (
 								<div key={statIdx}>
 									<dt className="text-sm leading-6 text-grey-200">
@@ -78,13 +75,14 @@ export default function CaseStudyMTa() {
 									</dd>
 								</div>
 							))}
-						</dl> */}
+						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
 								Using our expertise in software development and
 								experience conducting research in schools, we
 								delivered two bespoke and complex software
-								systems using the following approach:
+								systems (Numeralis and Cognitive Function Task)
+								using the following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -198,26 +196,13 @@ export default function CaseStudyMTa() {
 						</div>
 					</div>
 					<div className="lg:col-span-5">
-						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
-							<img
-								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/lboro/numeralis-home.png"
-								alt="The homepage of the Numeralis application."
-							/>
-							<figcaption className="mt-2 flex gap-x-4 text-sm">
-								<p>
-									The homepage of the Numeralis application.
-								</p>
-							</figcaption>
-						</div>
 						<figure className="mt-10 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
-									“Simon did a fantastic job on my app
-									[Cognitive Function Task]. The final product
-									exceeded my expectations: it was visually
-									appealing, looking far better than I had
-									described in the brief, and the
+									“Simon did a fantastic job on my app. The
+									final product exceeded my expectations: it
+									was visually appealing, looking far better
+									than I had described in the brief, and the
 									functionality was excellent, integrating all
 									the complex elements of my design.”
 								</p>
@@ -236,6 +221,19 @@ export default function CaseStudyMTa() {
 								</div>
 							</figcaption>
 						</figure>
+						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
+							<img
+								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
+								src="/our-work/lboro/numeralis-home.png"
+								alt="The homepage of the Numeralis application."
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									The homepage of the Numeralis application.
+								</p>
+							</figcaption>
+						</div>
+
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
