@@ -233,10 +233,16 @@ export default function CaseStudyMTa() {
 						</figure>
 						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
-								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-200 sm:w-[57rem]"
+								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-500 sm:w-[57rem]"
 								src="/our-work/mta/nasa.png"
 								alt=""
 							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									NASA Moon Survival, one of the activities we
+									built for MTa Immersion.
+								</p>
+							</figcaption>
 						</div>
 					</div>
 				</div>

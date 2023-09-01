@@ -165,6 +165,12 @@ export default function CaseStudyWGC() {
 							src="/our-work/wgc/gram.png"
 							alt=""
 						/>
+						<figcaption className="mt-2 flex gap-x-4 text-sm">
+							<p>
+								One of the web applications we delivered for
+								WGC.
+							</p>
+						</figcaption>
 					</div>
 				</div>
 			</div>

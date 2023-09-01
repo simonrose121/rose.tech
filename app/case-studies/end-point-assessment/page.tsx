@@ -1,21 +1,15 @@
 import { clients } from '@/app/components/clients';
 import {
-	ChatBubbleLeftRightIcon,
 	CodeBracketSquareIcon,
-	ComputerDesktopIcon,
-	GlobeEuropeAfricaIcon,
 	IdentificationIcon,
 	ScaleIcon,
-	SquaresPlusIcon,
-	ViewColumnsIcon,
 	WrenchScrewdriverIcon,
 } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
 const stats = [
 	{ label: 'Years Active', value: '4' },
 	{ label: 'Apprentices Assessed', value: '91' },
-	{ label: 'Businesses', value: '6' },
+	{ label: 'Businesses', value: '10' },
 ];
 
 export default function CaseStudyEPA() {
@@ -213,6 +207,16 @@ export default function CaseStudyEPA() {
 								</div>
 							</figcaption>
 						</figure>
+						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
+							<img
+								className="w-[48rem] max-w-none rounded-xl sm:w-[57rem]"
+								src="/our-work/epa/process.png"
+								alt=""
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>A section of the EPA Training document.</p>
+							</figcaption>
+						</div>
 					</div>
 				</div>
 			</div>
