@@ -12,7 +12,7 @@ const stats = [
 	{ label: 'Users', value: '300+' },
 ];
 
-export default function CaseStudyMTa() {
+export default function CaseStudyLboro() {
 	return (
 		<div className="relative isolate py-24 sm:py-32">
 			<div
@@ -58,8 +58,7 @@ export default function CaseStudyMTa() {
 					<p className="text-xl">
 						RoseTech designed, developed and deployed bespoke
 						software for two research projects for the Mathematical
-						Cognition at Loughborough University at Loughborough
-						University.
+						Cognition at Loughborough University.
 					</p>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
@@ -80,9 +79,9 @@ export default function CaseStudyMTa() {
 							<p>
 								Using our expertise in software development and
 								experience conducting research in schools, we
-								delivered two bespoke and complex software
-								systems (Numeralis and Cognitive Function Task)
-								using the following approach:
+								delivered two bespoke and complex full-stacl
+								software systems (Numeralis and Cognitive
+								Function Task) using the following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -177,7 +176,8 @@ export default function CaseStudyMTa() {
 								</dt>
 								<dd className="text-md font-bold tracking-tight text-white">
 									TypeScript, Angular, RxJS, Vue, Vuex,
-									Firebase, MongoDB, CentOS, Figma
+									NodeJS, Express.js, Firebase, MongoDB,
+									CentOS, Figma
 								</dd>
 							</div>
 						</dl>

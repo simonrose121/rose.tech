@@ -186,28 +186,7 @@ export default function CaseStudy542() {
 						</dl>
 					</div>
 					<div className="relative lg:col-span-5">
-						<svg
-							className="absolute -top-[40rem] left-1 -z-10 h-[64rem] w-[175.5rem] -translate-x-1/2 stroke-gray-900/10 [mask-image:radial-gradient(64rem_64rem_at_111.5rem_0%,white,transparent)]"
-							aria-hidden="true"
-						>
-							<defs>
-								<pattern
-									id="e87443c8-56e4-4c20-9111-55b82fa704e3"
-									width={200}
-									height={200}
-									patternUnits="userSpaceOnUse"
-								>
-									<path d="M0.5 0V200M200 0.5L0 0.499983" />
-								</pattern>
-							</defs>
-							<rect
-								width="100%"
-								height="100%"
-								strokeWidth={0}
-								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
-							/>
-						</svg>
-						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:top-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been at the forefront of driving
@@ -301,7 +280,7 @@ export default function CaseStudy542() {
 						</div>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:top-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been an absolute pleasure to work
@@ -381,7 +360,7 @@ export default function CaseStudy542() {
 						</ul>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:top-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon is an exceptional talent. His
