@@ -86,9 +86,9 @@ export default function CaseStudy542() {
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="font-semibold relative">
+							<h2 className="font-semibold text-xl relative">
 								<CodeBracketIcon
-									className="isolate w-10 h-10 text-white opacity-20"
+									className="isolate w-10 h-10 mb-4 text-white"
 									aria-hidden="true"
 								/>
 								Front-end Expansion
@@ -207,7 +207,7 @@ export default function CaseStudy542() {
 								fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
 							/>
 						</svg>
-						<figure className="mt-20 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been at the forefront of driving
@@ -237,9 +237,9 @@ export default function CaseStudy542() {
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="font-semibold">
+							<h2 className="font-semibold text-xl">
 								<ArrowPathIcon
-									className="isolate w-10 h-10 text-white opacity-20"
+									className="isolate mb-4 w-10 h-10 text-white"
 									aria-hidden="true"
 								/>
 								Business Process Improvements
@@ -301,7 +301,7 @@ export default function CaseStudy542() {
 						</div>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-20 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon has been an absolute pleasure to work
@@ -333,9 +333,9 @@ export default function CaseStudy542() {
 					</div>
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
-							<h2 className="font-semibold">
+							<h2 className="font-semibold text-xl">
 								<ArrowTrendingUpIcon
-									className="isolate w-10 h-10 text-white opacity-20"
+									className="isolate w-10 h-10 mb-4 text-white"
 									aria-hidden="true"
 								/>
 								Growth Consultancy
@@ -381,7 +381,7 @@ export default function CaseStudy542() {
 						</ul>
 					</div>
 					<div className="relative lg:col-span-5">
-						<figure className="mt-20 border-l border-grey-500 pl-9">
+						<figure className="lg:absolute lg:bottom-0 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon is an exceptional talent. His

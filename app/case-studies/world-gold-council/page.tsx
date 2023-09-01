@@ -159,7 +159,7 @@ export default function CaseStudyWGC() {
 							</div>
 						</dl>
 					</div>
-					<div className="relative mt-10 lg:col-span-5 lg:sticky lg:overflow-hidden">
+					<div className="relative lg:mt-10 lg:col-span-5 lg:sticky overflow-hidden">
 						<img
 							className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
 							src="/our-work/wgc/gram.png"

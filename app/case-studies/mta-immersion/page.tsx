@@ -68,7 +68,7 @@ export default function CaseStudyWGC() {
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
+						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 							{stats.map((stat, statIdx) => (
 								<div key={statIdx}>
 									<dt className="text-sm leading-6 text-grey-200">
@@ -200,7 +200,7 @@ export default function CaseStudyWGC() {
 						</dl>
 					</div>
 					<div className="lg:col-span-5">
-						<figure className="mt-10 border-l border-grey-500 pl-9">
+						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“As part of the rebuild, Simon demonstrated
@@ -234,7 +234,7 @@ export default function CaseStudyWGC() {
 								</div>
 							</figcaption>
 						</figure>
-						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
+						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
 								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-200 sm:w-[57rem]"
 								src="/our-work/mta/nasa.png"
