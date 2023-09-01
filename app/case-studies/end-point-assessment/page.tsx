@@ -158,7 +158,10 @@ export default function CaseStudyEPA() {
 										cohort. Since starting the EPA process,
 										Simon has trained and onboarded two
 										additional assessors using a training
-										program we created.
+										program that he created. We also had to
+										make changes to the process to
+										accommodate the COVID-19 pandemic, which
+										are still in place today.
 									</span>
 								</li>
 
