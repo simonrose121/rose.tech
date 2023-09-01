@@ -69,7 +69,10 @@ export default function Header() {
 				</div>
 				<div className="hidden lg:flex lg:gap-x-12">
 					{navigation.pages.map((item) => {
-						const active = pathname === item.href;
+						const active =
+							item.href !== '/'
+								? pathname.includes(item.href)
+								: pathname === item.href;
 						return (
 							<a
 								key={item.name}
