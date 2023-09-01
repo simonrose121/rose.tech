@@ -87,8 +87,8 @@ export default function CaseStudyWGC() {
 								included both internal dashboards for WGC's
 								analysts and user-facing websites to promote
 								gold as an investment.
-							</p>
-							<p className="mt-3">
+								<br />
+								<br />
 								Using our software development expertise, we
 								ensured high-quality software using the
 								following approach:

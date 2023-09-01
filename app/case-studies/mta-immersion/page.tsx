@@ -3,10 +3,7 @@ import {
 	ChatBubbleLeftRightIcon,
 	ComputerDesktopIcon,
 	GlobeEuropeAfricaIcon,
-	QueueListIcon,
 	SquaresPlusIcon,
-	TrophyIcon,
-	UserCircleIcon,
 	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
@@ -18,7 +15,7 @@ const stats = [
 	{ label: 'Subscriber Growth', value: '350%' },
 ];
 
-export default function CaseStudyWGC() {
+export default function CaseStudyMTa() {
 	return (
 		<div className="relative isolate py-24 sm:py-32">
 			<div
