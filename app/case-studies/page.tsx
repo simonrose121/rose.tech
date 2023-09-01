@@ -81,17 +81,17 @@ const caseStudies: Array<CaseStudy> = [
 		bgUrl: 'cft.png',
 		name: 'Cognitive Function Task',
 	},
-	// {
-	// 	id: 7,
-	// 	client: clients(logoColour, logoWidth, logoHeight).find(
-	// 		(c) => c.name === 'Sheffield Hallam University'
-	// 	),
-	// 	href: '/case-studies/pirate-plunder',
-	// 	description: `Design and development of a programming game to teach block-based procedural abstraction.`,
-	// 	colour: '#6F3092',
-	// 	bgUrl: 'pp.png',
-	// 	name: 'Pirate Plunder',
-	// },
+	{
+		id: 7,
+		client: clients(logoColour, logoWidth, logoHeight).find(
+			(c) => c.name === 'Sheffield Hallam University'
+		),
+		href: '/case-studies/pirate-plunder',
+		description: `Design and development of a programming game to teach block-based procedural abstraction.`,
+		colour: '#6F3092',
+		bgUrl: 'pp.png',
+		name: 'Pirate Plunder',
+	},
 	// {
 	// 	id: 8,
 	// 	client: clients(logoColour, logoWidth, logoHeight).find(
