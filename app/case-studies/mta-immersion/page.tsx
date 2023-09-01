@@ -233,7 +233,7 @@ export default function CaseStudyMTa() {
 						</figure>
 						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
-								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-500 sm:w-[57rem]"
+								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/our-work/mta/nasa.png"
 								alt=""
 							/>

@@ -183,9 +183,24 @@ export default function CaseStudyMTa() {
 								</dd>
 							</div>
 						</dl>
-						<div className="relative">
+						<div className="relative overflow-hidden">
 							<img
-								className="w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500"
+								className="md:w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 w-[48rem]"
+								src="/our-work/lboro/cft-rules.png"
+								alt="The rules page of the Cognitive Function Task application."
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									The rules page of the Cognitive Function
+									Task application.
+								</p>
+							</figcaption>
+						</div>
+					</div>
+					<div className="lg:col-span-5">
+						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
+							<img
+								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/our-work/lboro/numeralis-home.png"
 								alt="The homepage of the Numeralis application."
 							/>
@@ -195,9 +210,7 @@ export default function CaseStudyMTa() {
 								</p>
 							</figcaption>
 						</div>
-					</div>
-					<div className="lg:col-span-5">
-						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
+						<figure className="mt-10 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon did a fantastic job on my app
@@ -223,22 +236,9 @@ export default function CaseStudyMTa() {
 								</div>
 							</figcaption>
 						</figure>
-						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
+						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
-								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-500 sm:w-[57rem]"
-								src="/our-work/lboro/cft-rules.png"
-								alt="The rules page of the Cognitive Function Task application."
-							/>
-							<figcaption className="mt-2 flex gap-x-4 text-sm">
-								<p>
-									The rules page of the Cognitive Function
-									Task application.
-								</p>
-							</figcaption>
-						</div>
-						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
-							<img
-								className="w-[48rem] max-w-none rounded-xl ring-1 ring-grey-500 sm:w-[57rem]"
+								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/our-work/lboro/cft-task.png"
 								alt="The task configuration page of the Cognitive Function Task application."
 							/>

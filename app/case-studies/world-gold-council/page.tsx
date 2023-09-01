@@ -161,14 +161,14 @@ export default function CaseStudyWGC() {
 					</div>
 					<div className="relative lg:mt-10 lg:col-span-5 lg:sticky overflow-hidden">
 						<img
-							className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+							className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]"
 							src="/our-work/wgc/gram.png"
 							alt=""
 						/>
 						<figcaption className="mt-2 flex gap-x-4 text-sm">
 							<p>
-								One of the web applications we delivered for
-								WGC.
+								GRAM (Gold Return Attribution Model) was one of
+								the web applications we delivered for WGC.
 							</p>
 						</figcaption>
 					</div>
