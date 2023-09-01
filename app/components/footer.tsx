@@ -13,11 +13,11 @@ export default function Footer() {
 					</a>
 				</div>
 				<nav
-					className="mt-6 text-center sm:flex sm:justify-center sm:space-x-12"
+					className="mt-6 text-center sm:flex sm:justify-center sm:gap-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name}>
+						<div key={item.name} className="w-24">
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"
@@ -26,6 +26,14 @@ export default function Footer() {
 							</a>
 						</div>
 					))}
+					<div className="w-24">
+						<a
+							href="/contact-us"
+							className="text-sm leading-6 text-white hover:text-gray-200"
+						>
+							Contact Us
+						</a>
+					</div>
 				</nav>
 				<div className="mt-6 flex justify-center space-x-10">
 					{navigation.social.map((item) => (

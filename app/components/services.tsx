@@ -50,7 +50,7 @@ export default function Services() {
 	return (
 		<div className="bg-black py-24 relative isolate sm:py-32 border-t border-b border-white/10">
 			<img
-				src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80&auto=format&w=2830&q=80&blend=111827&sat=-100&exp=5&blend-mode=multiply"
+				src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80&auto=format&w=2830&q=80&blend=1B111A&sat=-100&exp=5&blend-mode=multiply"
 				alt=""
 				className="absolute inset-0 -z-10 h-full w-full object-cover"
 			/>
