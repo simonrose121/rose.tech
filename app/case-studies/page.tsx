@@ -64,22 +64,11 @@ const caseStudies: Array<CaseStudy> = [
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Loughborough University'
 		),
-		href: '/case-studies/cognitive-function-task',
-		description: `Design and development of a gamified assessment system to measure dyscalculia in children.`,
+		href: '/case-studies/loughborough-university',
+		description: `Design and development of gamified assessment systems for research projects.`,
 		colour: '#6F3092',
 		bgUrl: 'numeralis.png',
-		name: 'Numeralis',
-	},
-	{
-		id: 6,
-		client: clients(logoColour, logoWidth, logoHeight).find(
-			(c) => c.name === 'Loughborough University'
-		),
-		href: '/case-studies/cognitive-function-task',
-		description: `Design and development of a gamified assessment system to measure cognitive function.`,
-		colour: '#6F3092',
-		bgUrl: 'cft.png',
-		name: 'Cognitive Function Task',
+		name: 'Mathematical Research Software',
 	},
 	{
 		id: 7,

@@ -93,11 +93,11 @@ export default function CaseStudyEPA() {
 								<br />
 								Simon was employed by Sheffield Hallam
 								University to create an end-point assessment
-								process from the Government standard for in
-								2020. Using our software engineering and
-								academic experience, we created a standardised
-								and rigorous assessment process using the
-								following approach:
+								process from the Government standard in 2020.
+								Using our software engineering and academic
+								experience, we created a standardised and
+								rigorous assessment process using the following
+								approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -110,10 +110,10 @@ export default function CaseStudyEPA() {
 											Adheres to the Government standard.
 										</strong>{' '}
 										The Government standard specifies in
-										board terms how the process should work
-										and what stipulations should be
-										followed. We follow this as best we can
-										to ensure consistent grading across the
+										broad terms how the assessment process
+										should work and what stipulations should
+										be followed. We follow this as best we
+										can to ensure consistent grading across
 										course providers.
 									</span>
 								</li>
@@ -152,10 +152,7 @@ export default function CaseStudyEPA() {
 										cohort. Since starting the EPA process,
 										Simon has trained and onboarded two
 										additional assessors using a training
-										program that he created. We also had to
-										make changes to the process to
-										accommodate the COVID-19 pandemic, which
-										are still in place today.
+										program that he created.
 									</span>
 								</li>
 
