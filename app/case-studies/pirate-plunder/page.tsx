@@ -5,6 +5,12 @@ import {
 	LanguageIcon,
 } from '@heroicons/react/24/outline';
 
+const stats = [
+	{ label: 'Players', value: '294' },
+	{ label: 'Languages', value: '2' },
+	{ label: 'Related Publications', value: '5' },
+];
+
 export default function CaseStudyPP() {
 	return (
 		<div className="relative isolate py-24 sm:py-32">
@@ -56,6 +62,18 @@ export default function CaseStudyPP() {
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
+						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
+							{stats.map((stat, statIdx) => (
+								<div key={statIdx}>
+									<dt className="text-sm leading-6 text-grey-200">
+										{stat.label}
+									</dt>
+									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+										{stat.value}
+									</dd>
+								</div>
+							))}
+						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
 								Pirate Plunder has been used in several
@@ -88,7 +106,7 @@ export default function CaseStudyPP() {
 										Analytics and user tracking were
 										essential in using Pirate Plunder for
 										research. We implemented data collection
-										for every user action, to explore how
+										for every player action, to explore how
 										children used the game features and the
 										block-based programming environment.
 									</span>
@@ -105,9 +123,9 @@ export default function CaseStudyPP() {
 										Motivation is vital in educational
 										tools. Pirate Plunder implements a
 										currency system that rewards using
-										programming principles correctly. Users
-										can then spend their currency to
-										customise their character. Users then
+										programming principles correctly.
+										Players can then spend their currency to
+										customise their character. Players then
 										compare their characters, as well as
 										their progress, with their peers on the
 										'class' screen.
@@ -136,7 +154,7 @@ export default function CaseStudyPP() {
 								href="https://www.pirateplunder.app"
 								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
 							>
-								Have a go!
+								Pirate Plunder →
 							</a>
 						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">

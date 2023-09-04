@@ -4,13 +4,12 @@ import {
 	CircleStackIcon,
 	LockClosedIcon,
 	PuzzlePieceIcon,
-	UserCircleIcon,
 	WrenchIcon,
 } from '@heroicons/react/24/outline';
 
 const stats = [
 	{ label: 'Projects Delivered', value: '2' },
-	{ label: 'Users', value: '300+' },
+	{ label: 'Users', value: '649' },
 ];
 
 export default function CaseStudyLboro() {
@@ -80,7 +79,7 @@ export default function CaseStudyLboro() {
 							<p>
 								Using our expertise in software development and
 								experience conducting research in schools, we
-								delivered two bespoke and complex full-stacl
+								delivered two bespoke and complex full-stack
 								software systems (Numeralis and Cognitive
 								Function Task) using the following approach:
 							</p>
@@ -165,7 +164,8 @@ export default function CaseStudyLboro() {
 										Research data is sensitive. Both
 										projects had to be approved by the
 										University ethics board and we ensured
-										their requirements were implemented.
+										the applications met their stringent
+										data security requirements.
 									</span>
 								</li>
 							</ul>
@@ -184,7 +184,7 @@ export default function CaseStudyLboro() {
 						</dl>
 						<div className="relative overflow-hidden">
 							<img
-								className="md:w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 w-[48rem]"
+								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
 								src="/our-work/lboro/cft-rules.png"
 								alt="The rules page of the Cognitive Function Task application."
 							/>
@@ -197,7 +197,7 @@ export default function CaseStudyLboro() {
 						</div>
 					</div>
 					<div className="lg:col-span-5">
-						<figure className="mt-10 border-l border-grey-500 pl-9">
+						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon did a fantastic job on my app. The
@@ -222,7 +222,7 @@ export default function CaseStudyLboro() {
 								</div>
 							</figcaption>
 						</figure>
-						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
+						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/our-work/lboro/numeralis-home.png"
