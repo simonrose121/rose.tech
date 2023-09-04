@@ -7,11 +7,6 @@ import {
 	WrenchIcon,
 } from '@heroicons/react/24/outline';
 
-const stats = [
-	{ label: 'Projects Delivered', value: '2' },
-	{ label: 'Users', value: '649' },
-];
-
 export default function CaseStudyLboro() {
 	return (
 		<div className="relative isolate py-24 sm:py-32">
@@ -61,27 +56,14 @@ export default function CaseStudyLboro() {
 						Cognition at Loughborough University.
 					</p>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
-							{stats.map((stat, statIdx) => (
-								<div key={statIdx}>
-									<dt className="text-sm leading-6 text-grey-200">
-										{stat.label}
-									</dt>
-									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
-										{stat.value}
-									</dd>
-								</div>
-							))}
-						</dl>
 						<div className="mt-10 max-w-2xl">
-							<p>
+							<p className="mt-10">
 								Using our expertise in software development and
-								experience conducting research in schools, we
-								delivered two bespoke and complex full-stack
-								software systems (Numeralis and Cognitive
-								Function Task) using the following approach:
+								experience conducting research in schools, these
+								bespoke and complex full-stack software systems
+								using the following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -182,6 +164,60 @@ export default function CaseStudyLboro() {
 								</dd>
 							</div>
 						</dl>
+						<p className="mt-10">
+							Read more about the two projects:
+						</p>
+						<div className="flex mt-5 bg-grey-800 ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
+							<img
+								src="/our-work/lboro/cft.png"
+								className="w-96"
+							/>
+							<p>
+								The Cognitive Function Task implements a method
+								of assessing cognitive function across
+								development designed by Kelly Trezise. It allows
+								users to create and manage customised assessment
+								tasks and view and export data produced when
+								participants take those tasks. These tasks
+								include trials that can be configured for things
+								like targets, proportions and relationships to
+								generate grids of shapes from a set of criteria.
+								Tasks can then be installed individually on
+								devices and run either online or offline, which
+								is perfect for school testing.
+							</p>
+							<a
+								href="https://www.cognitivefunctiontask.com/#/?task=btwn"
+								className="w-fit rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								Cognitive Function Task →
+							</a>
+						</div>
+						<div className="flex mt-10 bg-grey-800 ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
+							<img
+								src="/our-work/lboro/numeralis.svg"
+								className="w-96"
+							/>
+							<p>
+								Numeralis is a research application containing a
+								set of activities to measure dyscalculia,
+								designed by{' '}
+								<a href="https://www.lboro.ac.uk/departments/mec/staff/kinga-morsanyi/">
+									Kinga Morsanyi
+								</a>
+								. Numeralis has an admin section to handle
+								users, assessments and data export. We
+								implemented security improvements, including
+								adding passwords and user permissions, and made
+								some device compatibility improvements and added
+								several extra activities, different question
+								sets and made sure that activities correctly
+								outputted and saved research data. There is a
+								gamified version called 'Numeralis Adventure'
+								that features 'worlds', a reward system and a
+								selectable guide character.
+							</p>
+						</div>
 						<div className="relative overflow-hidden">
 							<img
 								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
