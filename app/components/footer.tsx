@@ -13,11 +13,11 @@ export default function Footer() {
 					</a>
 				</div>
 				<nav
-					className="mt-6 text-center sm:flex sm:justify-center sm:gap-12"
+					className="mt-6 text-center flex justify-center flex-col sm:flex-row sm:gap-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name} className="w-24">
+						<div key={item.name} className="sm:w-24 w-full">
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"
@@ -26,7 +26,7 @@ export default function Footer() {
 							</a>
 						</div>
 					))}
-					<div className="w-24">
+					<div className="sm:w-24 w-full">
 						<a
 							href="/contact-us"
 							className="text-sm leading-6 text-white hover:text-gray-200"

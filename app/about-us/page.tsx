@@ -79,9 +79,10 @@ export default function AboutUs() {
 								<br />
 								<br />
 								Since then, RoseTech have been creating value
-								for our clients through high-quality software,
-								pragmatic strategy and clear organisational
-								processes. We've created software for{' '}
+								for our clients through high-quality software
+								development, pragmatic strategy and clear
+								organisational processes. We've created software
+								for{' '}
 								<Link
 									href="/case-studies/lougborough-university"
 									className="underline"
