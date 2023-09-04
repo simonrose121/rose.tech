@@ -1,10 +1,8 @@
 import { clients } from '@/app/components/clients';
 import {
-	AcademicCapIcon,
-	LockClosedIcon,
-	PuzzlePieceIcon,
-	UserCircleIcon,
-	WrenchIcon,
+	CircleStackIcon,
+	GiftIcon,
+	LanguageIcon,
 } from '@heroicons/react/24/outline';
 
 export default function CaseStudyPP() {
@@ -53,18 +51,93 @@ export default function CaseStudyPP() {
 					<p className="text-xl">
 						Simon created Pirate Plunder for his PhD. The game aims
 						to teach procedural abstraction using a block-based
-						programming language. It was built, deployed and used in
-						schools for several research studies.
+						programming language.
 					</p>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="mt-10 max-w-2xl">
-							<p></p>
-							<ul
-								role="list"
-								className="mt-8 max-w-xl space-y-8"
-							></ul>
+							<p>
+								Pirate Plunder has been used in several
+								published studies, where it was shown to be
+								effective in teaching children to use 'custom
+								blocks' for procedural abstraction in
+								Scratch-based programming languages.
+								<br />
+								<br />
+								In 2023, Pirate Plunder was translated to
+								Portuguese for the Federal Center for
+								Technological Education of Rio de Janeiro to use
+								it as part of their programming curriculum in
+								2023.
+								<br />
+								<br />
+								In the design and development of Pirate Plunder,
+								we used the following approach:
+							</p>
+							<ul role="list" className="mt-8 max-w-xl space-y-8">
+								<li className="flex gap-x-3">
+									<CircleStackIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Data-first.
+										</strong>{' '}
+										Analytics and user tracking were
+										essential in using Pirate Plunder for
+										research. We implemented data collection
+										for every user action, to explore how
+										children used the game features and the
+										block-based programming environment.
+									</span>
+								</li>
+								<li className="flex gap-x-3">
+									<GiftIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Motivational design.
+										</strong>{' '}
+										Motivation is vital in educational
+										tools. Pirate Plunder implements a
+										currency system that rewards using
+										programming principles correctly. Users
+										can then spend their currency to
+										customise their character. Users then
+										compare their characters, as well as
+										their progress, with their peers on the
+										'class' screen.
+									</span>
+								</li>
+								<li className="flex gap-x-3">
+									<LanguageIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Translatable.
+										</strong>{' '}
+										Pirate Plunder implements translations
+										in an extendable and reusable way. If
+										you'd like Pirate Plunder translated
+										into your language, then please get in
+										touch!
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div className="mt-10 flex-col">
+							<a
+								href="https://www.pirateplunder.app"
+								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								Have a go!
+							</a>
 						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 							<div>

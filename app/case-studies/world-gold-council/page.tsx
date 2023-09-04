@@ -145,6 +145,14 @@ export default function CaseStudyWGC() {
 								</li>
 							</ul>
 						</div>
+						<div className="mt-10 flex-col">
+							<a
+								href="https://www.gold.org"
+								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								View it live
+							</a>
+						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 							<div>
 								<dt className="text-sm leading-6 text-grey-200">

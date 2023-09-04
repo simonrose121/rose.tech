@@ -79,19 +79,13 @@ export default function CaseStudyMTa() {
 						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
-								<Link
-									href="https://www.experientiallearning.org/online/"
-									className="underline"
-								>
-									MTa Immersion
-								</Link>{' '}
-								takes MTa Learning's in-person experiential
-								learning experiences online. MTa came to us
-								after a failed attempt at implementing the
-								platform using Unity and Photon. We used our
-								software and project management expertise to
-								rebuild the platform using the following
-								approach:
+								MTa Immersion takes MTa Learning's in-person
+								experiential learning experiences online. MTa
+								came to us after a failed attempt at
+								implementing the platform using Unity and
+								Photon. We used our software and project
+								management expertise to rebuild the platform
+								using the following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -183,6 +177,14 @@ export default function CaseStudyMTa() {
 									</span>
 								</li>
 							</ul>
+						</div>
+						<div className="mt-10 flex-col">
+							<a
+								href="https://experientiallearning.org/online"
+								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								View it live
+							</a>
 						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 							<div>

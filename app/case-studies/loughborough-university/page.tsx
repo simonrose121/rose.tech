@@ -1,6 +1,7 @@
 import { clients } from '@/app/components/clients';
 import {
 	AcademicCapIcon,
+	CircleStackIcon,
 	LockClosedIcon,
 	PuzzlePieceIcon,
 	UserCircleIcon,
@@ -104,13 +105,13 @@ export default function CaseStudyLboro() {
 									</span>
 								</li>
 								<li className="flex gap-x-3">
-									<UserCircleIcon
+									<CircleStackIcon
 										className="mt-1 h-5 w-5 flex-none text-primary-500"
 										aria-hidden="true"
 									/>
 									<span>
 										<strong className="font-semibold">
-											User-driven.
+											Data-driven.
 										</strong>{' '}
 										We ensured that each application was
 										built using a user login system to track
