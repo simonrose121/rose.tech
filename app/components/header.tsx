@@ -9,7 +9,7 @@ export const navigation = {
 	pages: [
 		{ name: 'Home', href: '/' },
 		{ name: 'Case Studies', href: '/case-studies' },
-		// { name: 'Our Journey', href: '/our-journey' },
+		{ name: 'About Us', href: '/about-us' },
 	],
 	social: [
 		{
