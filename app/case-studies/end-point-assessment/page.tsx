@@ -9,7 +9,7 @@ import {
 const stats = [
 	{ label: 'Years Active', value: '4' },
 	{ label: 'Apprentices Assessed', value: '91' },
-	{ label: 'Businesses', value: '10' },
+	{ label: 'Companies Involved', value: '10' },
 ];
 
 export default function CaseStudyEPA() {
@@ -62,21 +62,21 @@ export default function CaseStudyEPA() {
 						Engineering Specialism) run by Sheffield Hallam
 						University.
 					</p>
+					<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
+						{stats.map((stat, statIdx) => (
+							<div key={statIdx}>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
+								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+									{stat.value}
+								</dd>
+							</div>
+						))}
+					</dl>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
-							{stats.map((stat, statIdx) => (
-								<div key={statIdx}>
-									<dt className="text-sm leading-6 text-grey-200">
-										{stat.label}
-									</dt>
-									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
-										{stat.value}
-									</dd>
-								</div>
-							))}
-						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
 								The Digital and Technology Solutions Specialist

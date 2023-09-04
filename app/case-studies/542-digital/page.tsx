@@ -1,10 +1,7 @@
 import { clients } from '@/app/components/clients';
 import {
-	ArrowPathIcon,
 	ArrowPathRoundedSquareIcon,
-	ArrowTrendingUpIcon,
 	BuildingStorefrontIcon,
-	CodeBracketIcon,
 	DocumentIcon,
 	ListBulletIcon,
 	PaintBrushIcon,
@@ -18,7 +15,6 @@ const stats = [
 	{ label: 'Projects Delivered', value: '27' },
 	{ label: 'Company Growth', value: '400%' },
 	{ label: 'Hires', value: '8' },
-	{ label: 'Turnover', value: '£4m' },
 ];
 
 export default function CaseStudy542() {

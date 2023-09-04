@@ -1,19 +1,15 @@
 import { clients } from '@/app/components/clients';
 import {
-	ArrowPathRoundedSquareIcon,
-	ClockIcon,
-	ExclamationTriangleIcon,
-	PaintBrushIcon,
 	SquaresPlusIcon,
 	TrophyIcon,
 	UserCircleIcon,
-	UserGroupIcon,
 } from '@heroicons/react/24/outline';
 
 const stats = [
 	{ label: 'Projects Delivered', value: '27' },
 	{ label: 'Performance Boost', value: '60%' },
 	{ label: 'User Satisfaction Rate', value: '90%' },
+	{ label: 'Daily Visitors', value: '500,000' },
 ];
 
 export default function CaseStudyWGC() {
@@ -63,21 +59,21 @@ export default function CaseStudyWGC() {
 						We designed and developed financial dashboards and
 						websites for the World Gold Council.
 					</p>
+					<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
+						{stats.map((stat, statIdx) => (
+							<div key={statIdx}>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
+								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+									{stat.value}
+								</dd>
+							</div>
+						))}
+					</dl>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
-							{stats.map((stat, statIdx) => (
-								<div key={statIdx}>
-									<dt className="text-sm leading-6 text-grey-200">
-										{stat.label}
-									</dt>
-									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
-										{stat.value}
-									</dd>
-								</div>
-							))}
-						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
 								We worked with WGC during our time at 542
@@ -147,10 +143,10 @@ export default function CaseStudyWGC() {
 						</div>
 						<div className="mt-10 flex-col">
 							<a
-								href="https://www.gold.org"
+								href="https://www.gold.org/goldhub"
 								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
 							>
-								Gold.org →
+								Goldhub →
 							</a>
 						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
