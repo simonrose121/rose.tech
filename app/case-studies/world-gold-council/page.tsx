@@ -62,12 +62,12 @@ export default function CaseStudyWGC() {
 					<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
-								<dt className="text-sm leading-6 text-grey-200">
-									{stat.label}
-								</dt>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
 									{stat.value}
 								</dd>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
 							</div>
 						))}
 					</dl>
@@ -76,13 +76,13 @@ export default function CaseStudyWGC() {
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="mt-10 max-w-2xl">
 							<p>
-								We worked with WGC during our time at 542
-								Digital. 542's front-end team, led by Simon,
-								implemented a suite of web applications using
-								React, Redux, TypeScript and Next.js. This
-								included both internal dashboards for WGC's
-								analysts and user-facing websites to promote
-								gold as an investment.
+								We worked with the World Gold Council (WGC)
+								during our time at 542 Digital. 542's front-end
+								team, led by Simon, implemented a suite of web
+								applications using React, Redux, TypeScript and
+								Next.js. This included both internal dashboards
+								for WGC's analysts and user-facing websites to
+								promote gold as an investment.
 								<br />
 								<br />
 								Using our software development expertise, we
@@ -103,7 +103,7 @@ export default function CaseStudyWGC() {
 										the World Gold Council to ensure we
 										delivered software that met their
 										complex requirements, and was delivered
-										within budget and to deadline.
+										within budget and on time.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -115,12 +115,15 @@ export default function CaseStudyWGC() {
 										<strong className="font-semibold">
 											Maintainable and extendable.
 										</strong>{' '}
-										We implemented a reusable library that
-										shared logic between projects, and
-										ensured that our code was
-										well-documented and tested. This meant
-										that we could deliver new features
-										quickly and with confidence.
+										We implemented a reusable component
+										library that shared logic between
+										projects, ensuring maintainability and
+										extendability. We also standardised a
+										documentation approach, allowing the
+										team to easily understand and extend the
+										codebase. This meant that we could
+										deliver new features quickly and with
+										confidence.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -134,20 +137,12 @@ export default function CaseStudyWGC() {
 										</strong>{' '}
 										The large data sets we were working with
 										presented performance challenges. We
-										used bundle optimisation and API
-										endpoint caching to reduce time-to-load
-										for users.
+										used bundle optimisation, lazy loading
+										and caching to reduce time-to-load for
+										users.
 									</span>
 								</li>
 							</ul>
-						</div>
-						<div className="mt-10 flex-col">
-							<a
-								href="https://www.gold.org/goldhub"
-								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
-							>
-								Goldhub →
-							</a>
 						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 							<div>
@@ -156,12 +151,34 @@ export default function CaseStudyWGC() {
 								</dt>
 								<dd className="text-md font-bold tracking-tight text-white">
 									React, Next.js, Redux, TypeScript,
-									JavaScript, SCSS, Docker, Kubernetes, Gitlab
-									CI/CD, AWS, Storybook, Jest, Ant Design,
-									Figma
+									Highcharts, JavaScript, SCSS, Docker,
+									Kubernetes, Gitlab CI/CD, AWS, Storybook,
+									Jest, Ant Design, Figma
 								</dd>
 							</div>
 						</dl>
+						<div className="mt-10 flex-col">
+							<a
+								href="https://www.gold.org/goldhub"
+								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								Goldhub →
+							</a>
+						</div>
+						<div className="relative overflow-hidden">
+							<img
+								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
+								src="/our-work/wgc/qaurum.png"
+								alt="Qaurum, a full-stack application that uses complex financial logic to determine gold's implied returns in a range of scenarios."
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									Qaurum, a full-stack application that uses
+									complex financial logic to determine gold's
+									implied returns in a range of scenarios.
+								</p>
+							</figcaption>
+						</div>
 					</div>
 					<div className="relative lg:mt-10 lg:col-span-5 lg:sticky overflow-hidden">
 						<img
@@ -171,8 +188,9 @@ export default function CaseStudyWGC() {
 						/>
 						<figcaption className="mt-2 flex gap-x-4 text-sm">
 							<p>
-								GRAM (Gold Return Attribution Model) was one of
-								the web applications we delivered for WGC.
+								GRAM (Gold Return Attribution Model), a
+								front-end application that simplifies the
+								historical analysis of gold price drivers.
 							</p>
 						</figcaption>
 					</div>

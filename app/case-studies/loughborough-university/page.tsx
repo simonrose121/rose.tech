@@ -52,18 +52,18 @@ export default function CaseStudyLboro() {
 					</div>
 					<p className="text-xl">
 						RoseTech designed, developed and deployed bespoke
-						software for two research projects for the Mathematical
-						Cognition at Loughborough University.
+						software for two research projects for the Centre for
+						Mathematical Cognition at Loughborough University.
 					</p>
 				</div>
 				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="mt-10 max-w-2xl">
 							<p className="mt-10">
-								Using our expertise in software development and
-								experience conducting research in schools, these
-								bespoke and complex full-stack software systems
-								using the following approach:
+								We used our expertise in software development
+								and experience conducting research in schools to
+								deliver two bespoke and complex full-stack
+								software systems using the following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -73,16 +73,13 @@ export default function CaseStudyLboro() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Understanding education research
-											requirements.
+											Understanding research requirements.
 										</strong>{' '}
-										We have experience conducting research
-										studies using bespoke software in
-										schools. This meant we knew what was
-										required to deliver both projects, and
-										were able to advise the key stakeholders
-										on networking and user interaction
-										methods.
+										Using our experience building software
+										for research studies in schools, we were
+										able to advise the key stakeholders on
+										design, deployment and networking
+										requirements.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -95,9 +92,9 @@ export default function CaseStudyLboro() {
 											Data-driven.
 										</strong>{' '}
 										We ensured that each application was
-										built using a user login system to track
-										progress. As part of the requirements,
-										the data could then be exported in a
+										built to track user interaction and
+										progress. This data could then be
+										exported from the admin portals in a
 										usable format for analysis and
 										publication.
 									</span>
@@ -111,11 +108,10 @@ export default function CaseStudyLboro() {
 										<strong className="font-semibold">
 											Customisable and configurable.
 										</strong>{' '}
-										Both projects required an admin section
-										to create, configure and customise
-										assessments. We ensured that this was
-										easy to use and met the client's
-										requirements.
+										We created admin sections in both
+										applications to allow researchers to
+										create, configure and customise
+										assessments.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -143,31 +139,19 @@ export default function CaseStudyLboro() {
 										<strong className="font-semibold">
 											Secure.
 										</strong>{' '}
-										Research data is sensitive. Both
-										projects had to be approved by the
-										University ethics board and we ensured
-										the applications met their stringent
-										data security requirements.
+										Research data is sensitive. We ensured
+										the applications met the stringent
+										ethical data security and GDPR
+										requirements stipulated by the
+										University.
 									</span>
 								</li>
 							</ul>
 						</div>
-						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
-							<div>
-								<dt className="text-sm leading-6 text-grey-200">
-									Technologies Used
-								</dt>
-								<dd className="text-md font-bold tracking-tight text-white">
-									TypeScript, Angular, RxJS, Vue, Vuex,
-									NodeJS, Express.js, Firebase, MongoDB,
-									CentOS, Figma
-								</dd>
-							</div>
-						</dl>
 						<p className="mt-10">
 							Read more about the two projects:
 						</p>
-						<div className="flex mt-5 bg-grey-800 ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
+						<div className="flex mt-5 bg-black ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
 							<img
 								src="/our-work/lboro/cft.png"
 								className="w-96"
@@ -186,6 +170,17 @@ export default function CaseStudyLboro() {
 								devices and run either online or offline, which
 								is perfect for school testing.
 							</p>
+							<dl className="flex justify-start gap-8 flex-col sm:flex-row">
+								<div>
+									<dt className="text-sm leading-6 text-grey-200">
+										Technologies Used
+									</dt>
+									<dd className="text-md font-bold tracking-tight text-white">
+										TypeScript, Vue, Vuex, NodeJS,
+										Express.js, MongoDB, CentOS
+									</dd>
+								</div>
+							</dl>
 							<a
 								href="https://www.cognitivefunctiontask.com/#/?task=btwn"
 								className="w-fit rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
@@ -193,7 +188,7 @@ export default function CaseStudyLboro() {
 								Cognitive Function Task →
 							</a>
 						</div>
-						<div className="flex mt-10 bg-grey-800 ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
+						<div className="flex mt-10 bg-black ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
 							<img
 								src="/our-work/lboro/numeralis.svg"
 								className="w-96"
@@ -202,7 +197,10 @@ export default function CaseStudyLboro() {
 								Numeralis is a research application containing a
 								set of activities to measure dyscalculia,
 								designed by{' '}
-								<a href="https://www.lboro.ac.uk/departments/mec/staff/kinga-morsanyi/">
+								<a
+									href="https://www.lboro.ac.uk/departments/mec/staff/kinga-morsanyi/"
+									className="underline"
+								>
 									Kinga Morsanyi
 								</a>
 								. Numeralis has an admin section to handle
@@ -217,19 +215,17 @@ export default function CaseStudyLboro() {
 								that features 'worlds', a reward system and a
 								selectable guide character.
 							</p>
-						</div>
-						<div className="relative overflow-hidden">
-							<img
-								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
-								src="/our-work/lboro/cft-rules.png"
-								alt="The rules page of the Cognitive Function Task application."
-							/>
-							<figcaption className="mt-2 flex gap-x-4 text-sm">
-								<p>
-									The rules page of the Cognitive Function
-									Task application.
-								</p>
-							</figcaption>
+							<dl className="flex justify-start gap-8 flex-col sm:flex-row">
+								<div>
+									<dt className="text-sm leading-6 text-grey-200">
+										Technologies Used
+									</dt>
+									<dd className="text-md font-bold tracking-tight text-white">
+										TypeScript, Angular, RxJS, Firebase,
+										Firestore, Figma
+									</dd>
+								</div>
+							</dl>
 						</div>
 					</div>
 					<div className="lg:col-span-5">
@@ -270,7 +266,19 @@ export default function CaseStudyLboro() {
 								</p>
 							</figcaption>
 						</div>
-
+						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
+							<img
+								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
+								src="/our-work/lboro/cft-rules.png"
+								alt="The rules page of the Cognitive Function Task application."
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									The rules page of the Cognitive Function
+									Task application.
+								</p>
+							</figcaption>
+						</div>
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"

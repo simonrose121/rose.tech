@@ -7,8 +7,8 @@ import {
 
 const stats = [
 	{ label: 'Players', value: '294' },
-	{ label: 'Languages', value: '2' },
-	{ label: 'Related Publications', value: '5' },
+	{ label: 'Languages Supported', value: '2' },
+	{ label: 'Research Publications', value: '5' },
 ];
 
 export default function CaseStudyPP() {
@@ -65,29 +65,28 @@ export default function CaseStudyPP() {
 						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 							{stats.map((stat, statIdx) => (
 								<div key={statIdx}>
-									<dt className="text-sm leading-6 text-grey-200">
-										{stat.label}
-									</dt>
 									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
 										{stat.value}
 									</dd>
+									<dt className="text-sm leading-6 text-grey-200">
+										{stat.label}
+									</dt>
 								</div>
 							))}
 						</dl>
 						<div className="mt-10 max-w-2xl">
 							<p>
-								Pirate Plunder has been used in several
-								published studies, where it was shown to be
-								effective in teaching children to use 'custom
-								blocks' for procedural abstraction in
+								Pirate Plunder is a puzzle game where the player
+								must program a ship to collect coins and
+								treasure using loops and functions. It was shown
+								to be effective in teaching children to use
+								'custom blocks' for procedural abstraction in
 								Scratch-based programming languages.
 								<br />
 								<br />
-								In 2023, Pirate Plunder was translated to
-								Portuguese for the Federal Center for
-								Technological Education of Rio de Janeiro to use
-								it as part of their programming curriculum in
-								2023.
+								Pirate Plunder has been used by the Federal
+								Center for Technological Education of Rio de
+								Janeiro as part of their programming curriculum.
 								<br />
 								<br />
 								In the design and development of Pirate Plunder,
@@ -105,10 +104,17 @@ export default function CaseStudyPP() {
 										</strong>{' '}
 										Analytics and user tracking were
 										essential in using Pirate Plunder for
-										research. We implemented data collection
-										for every player action, to explore how
-										children used the game features and the
-										block-based programming environment.
+										research and{' '}
+										<a
+											href="https://scholar.google.com/citations?user=wMWa2TkAAAAJ&hl=en"
+											className="underline"
+										>
+											publishing results
+										</a>
+										. We implemented data collection to
+										explore how children used the game
+										features and the block-based programming
+										environment.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -122,13 +128,12 @@ export default function CaseStudyPP() {
 										</strong>{' '}
 										Motivation is vital in educational
 										tools. Pirate Plunder implements a
-										currency system that rewards using
-										programming principles correctly.
-										Players can then spend their currency to
-										customise their character. Players then
-										compare their characters, as well as
-										their progress, with their peers on the
-										'class' screen.
+										currency system that rewards the player
+										for completing levels optimally. Players
+										can then spend their currency to
+										customise their avatar, and can compare
+										their avatars and their progress on a
+										shared screen.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -141,10 +146,9 @@ export default function CaseStudyPP() {
 											Translatable.
 										</strong>{' '}
 										Pirate Plunder implements translations
-										in an extendable and reusable way. If
-										you'd like Pirate Plunder translated
-										into your language, then please get in
-										touch!
+										in an extendable and reusable way, and
+										is currently translated into English and
+										Brazilian Portuguese.
 									</span>
 								</li>
 							</ul>

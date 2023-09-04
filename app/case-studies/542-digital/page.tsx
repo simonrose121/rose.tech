@@ -69,12 +69,12 @@ export default function CaseStudy542() {
 					<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
-								<dt className="text-sm leading-6 text-grey-200">
-									{stat.label}
-								</dt>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
 									{stat.value}
 								</dd>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
 							</div>
 						))}
 					</dl>
@@ -87,12 +87,13 @@ export default function CaseStudy542() {
 							</h2>
 							<p className="mt-2">
 								When Simon at RoseTech started working with 542
-								Digital in July 2021, the front-end of their web
+								Digital in July 2021, their front-end web
 								applications had been implemented using vanilla
 								JavaScript and jQuery. Whilst this was
-								functional, an increase in project complexity
-								meant that the front-end needed to be overhauled
-								both technically and as a team.
+								functional, an increase in the number and
+								complexity of projects meant that the front-end
+								team needed expanding and the tech stack
+								updated.
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -106,11 +107,12 @@ export default function CaseStudy542() {
 											stack.
 										</strong>{' '}
 										We decoupled the front-end projects from
-										a large PHP Laravel application,
-										standardised the front-end tech stack to
-										React/Redux and TypeScript and
-										implemented a separate deployment
-										pipeline using Gitlab CI/CD and AWS.
+										a large PHP Laravel application and
+										standardised the tech stack to
+										React/Redux with TypeScript. We then
+										implemented a separate staged deployment
+										pipeline using Gitlab CI/CD and AWS to
+										ensure reliable delivery.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -120,12 +122,13 @@ export default function CaseStudy542() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Built and led a front-end team.
+											Built and led the front-end team.
 										</strong>{' '}
-										We hired and led a talented team of 5
-										Software Engineers, 2 Product Designers
-										and 1 Project Manager, delivering 26
-										projects across our time at 542 Digital.
+										We hired, led and managed a talented
+										team of 5 Software Engineers, 2 Product
+										Designers and 1 Project Manager. As a
+										team, we delivered 27 projects across
+										our time at 542 Digital.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -139,9 +142,9 @@ export default function CaseStudy542() {
 										</strong>{' '}
 										We implemented industry standard project
 										management and software engineering
-										processes including Agile, versioning,
-										code reviews, coding standards and
-										automated testing.
+										processes including Agile sprints,
+										software versioning, code reviews,
+										coding standards and automated testing.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -151,14 +154,15 @@ export default function CaseStudy542() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Design as part of the process.
+											Design and development coordination.
 										</strong>{' '}
 										We created a Figma design system that
 										allowed applications to be rapidly
 										prototyped for client review before a
-										line of code was written. This was then
-										developed further when 542 hired Product
-										Designers.
+										line of code was written. This formed
+										the basis of a component library we
+										built to standardise components across
+										our front-end applications.
 									</span>
 								</li>
 							</ul>
@@ -214,8 +218,8 @@ export default function CaseStudy542() {
 							<p className="mt-2">
 								542 grew from a small business (10 employees) to
 								an SME (40 employees) during our time working
-								with them. We led on implementing process across
-								the business to ease this transition.
+								with them. We led on implementing processes
+								across the business to ease this transition.
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -225,12 +229,13 @@ export default function CaseStudy542() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Consistent process across teams.
+											Cross-team consistency.
 										</strong>{' '}
 										We led on implementing software
-										development processes in the back-end
-										team, as well as advising other teams on
-										industry standard development practices.
+										development processes across multiple
+										development teams. We also advised other
+										teams, such as Data, on industry
+										standard development practices.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -243,9 +248,10 @@ export default function CaseStudy542() {
 											Feasibility and project workflow.
 										</strong>{' '}
 										We worked with 542, their clients and
-										other partners on project feasibility,
-										requirements gathering and a staged
-										project workflow.
+										other partners on requirements
+										gathering, estimations, project
+										feasibility and a staged project
+										workflow.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -319,10 +325,10 @@ export default function CaseStudy542() {
 									<strong className="font-semibold">
 										Presentations to client.
 									</strong>{' '}
-									We gave several high level presentations to
-									542's clients justifying increased costs due
-									to necessary scaling based on their
-									requirements.
+									We gave several high-level presentations on
+									process and projects to 542's clients
+									justifying increased costs due to necessary
+									scaling based on their requirements.
 								</span>
 							</li>
 							<li className="flex gap-x-3">
@@ -332,13 +338,14 @@ export default function CaseStudy542() {
 								/>
 								<span>
 									<strong className="font-semibold">
-										Consultancy project.
+										Growth at 542 consultancy project.
 									</strong>{' '}
 									We worked closely with 542's senior
 									leadership team to capture the risks and
-									opportunities of growth, and presented a
-									consultancy project to them with
-									recommendations.
+									opportunities of growth. We then synthesised
+									and presented the information with
+									recommendations, before leading a discussion
+									on the outcomes and actions.
 								</span>
 							</li>
 						</ul>

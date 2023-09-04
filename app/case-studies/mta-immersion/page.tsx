@@ -6,12 +6,11 @@ import {
 	SquaresPlusIcon,
 	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
 const stats = [
 	{ label: 'Projects Delivered', value: '18' },
 	{ label: 'Activities Implemented', value: '5' },
-	{ label: 'Bespoke Products', value: '1' },
+	{ label: 'Bespoke Product', value: '1' },
 	{ label: 'Subscriber Growth', value: '350%' },
 ];
 
@@ -65,12 +64,12 @@ export default function CaseStudyMTa() {
 					<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
-								<dt className="text-sm leading-6 text-grey-200">
-									{stat.label}
-								</dt>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
 									{stat.value}
 								</dd>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
 							</div>
 						))}
 					</dl>
@@ -79,13 +78,16 @@ export default function CaseStudyMTa() {
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="mt-10 max-w-2xl">
 							<p>
-								MTa Immersion takes MTa Learning's in-person
+								MTa Immersion takes MTa Learning's successful
 								experiential learning experiences online. MTa
-								came to us after a failed attempt at
-								implementing the platform using Unity and
-								Photon. We used our software and project
-								management expertise to rebuild the platform
-								using the following approach:
+								hired Simon as Chief Technology Officer after a
+								failed attempt at implementing the platform
+								using Unity and Photon.
+								<br />
+								<br />
+								We used our software and project management
+								expertise to rebuild the platform using the
+								following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -119,10 +121,11 @@ export default function CaseStudyMTa() {
 										One of the core requirements from MTa
 										was to be able to reuse and repackage
 										core technologies to create new
-										activities at a low cost. We implemented
-										a generic API shared across all activity
-										front-ends that allows activities to be
-										created in minimal time.
+										activities at low cost and short
+										time-to-market. We implemented a generic
+										API shared across all activities that
+										enables extension and simplifies
+										maintenance.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -132,16 +135,16 @@ export default function CaseStudyMTa() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Product design phase.
+											Product design.
 										</strong>{' '}
 										To ensure we delivered activities to
-										meet MTa's requirements, we implemented
-										a product design phase using a Figma
-										design system. This allowed us to
-										harness the knowledge within the
-										business, combined with latest in UI/UX
-										research, to produce user-friendly
-										applications.
+										meet MTa's requirements, we designed the
+										products using a Figma design system.
+										This allowed us to harness the knowledge
+										within the business, combined with
+										latest in UI/UX research and client
+										input, to produce user-friendly
+										activities.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -151,13 +154,14 @@ export default function CaseStudyMTa() {
 									/>
 									<span>
 										<strong className="font-semibold">
-											Agile project management.
+											Roadmapping and project management.
 										</strong>{' '}
-										We implemented an agile strategy to
-										manage the platform implementation. This
-										meant we could quickly implement
-										changing user requirements and deliver a
-										product that met the business's needs.
+										We used roadmaps combined with an Agile
+										strategy to manage the platform
+										implementation. This meant we could
+										quickly implement changing user
+										requirements and deliver a product that
+										met the business's needs.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -178,14 +182,6 @@ export default function CaseStudyMTa() {
 								</li>
 							</ul>
 						</div>
-						<div className="mt-10 flex-col">
-							<a
-								href="https://experientiallearning.org/online"
-								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
-							>
-								MTa Immersion →
-							</a>
-						</div>
 						<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
 							<div>
 								<dt className="text-sm leading-6 text-grey-200">
@@ -197,6 +193,27 @@ export default function CaseStudyMTa() {
 								</dd>
 							</div>
 						</dl>
+						<div className="mt-10 flex-col">
+							<a
+								href="https://experientiallearning.org/online"
+								className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm text-white shadow-sm hover:bg-secondary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500"
+							>
+								MTa Immersion →
+							</a>
+						</div>
+						<div className="relative overflow-hidden">
+							<img
+								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
+								src="/our-work/mta/chain-reaction.png"
+								alt="Chain Reaction, a team-based negotiation activity that we built for MTa Immersion."
+							/>
+							<figcaption className="mt-2 flex gap-x-4 text-sm">
+								<p>
+									Chain Reaction, a team-based negotiation
+									activity that we built for MTa Immersion.
+								</p>
+							</figcaption>
+						</div>
 					</div>
 					<div className="lg:col-span-5">
 						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
@@ -237,12 +254,13 @@ export default function CaseStudyMTa() {
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/our-work/mta/nasa.png"
-								alt=""
+								alt="NASA Moon Survival, one of the activities we built for MTa Immersion based on the NASA Survival on the Moon exercise."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
 								<p>
-									NASA Moon Survival, one of the activities we
-									built for MTa Immersion.
+									NASA Moon Survival, an activity we built for
+									MTa Immersion based on the NASA Survival on
+									the Moon exercise.
 								</p>
 							</figcaption>
 						</div>

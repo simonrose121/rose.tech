@@ -65,12 +65,12 @@ export default function CaseStudyEPA() {
 					<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
-								<dt className="text-sm leading-6 text-grey-200">
-									{stat.label}
-								</dt>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
 									{stat.value}
 								</dd>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
 							</div>
 						))}
 					</dl>
@@ -80,10 +80,9 @@ export default function CaseStudyEPA() {
 						<div className="mt-10 max-w-2xl">
 							<p>
 								The Digital and Technology Solutions Specialist
-								Integrated Degree Apprenticeship (Software
-								Engineering Specialism) is a 3-year course used
-								by software companies of varying sizes to
-								develop their employees and gear them towards
+								Integrated Degree Apprenticeship is used by
+								software companies of varying sizes to develop
+								their employees and gear them towards
 								management. It requires apprentices to meet
 								Knowledge, Skill and Behavioural requirements
 								across business and change management,
@@ -93,11 +92,11 @@ export default function CaseStudyEPA() {
 								<br />
 								Simon was employed by Sheffield Hallam
 								University to create an end-point assessment
-								process from the Government standard in 2020.
-								Using our software engineering and academic
-								experience, we created a standardised and
-								rigorous assessment process using the following
-								approach:
+								process to assess these from the Government
+								standard. Using our software engineering and
+								academic experience, we created a standardised
+								and rigorous assessment process using the
+								following approach:
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
@@ -126,13 +125,11 @@ export default function CaseStudyEPA() {
 										<strong className="font-semibold">
 											Consistent and fair.
 										</strong>{' '}
-										The EPA process sits at the end of a
-										3-year course and a lot of hard work for
-										each apprentice. We ensure consistency
-										and fairness through moderation,
-										standardisation and a rigorous grading
-										process with clear and actionable
-										feedback if required.
+										We ensure consistency and fairness
+										through internal and external
+										moderation, standardisation and a
+										rigorous grading process with clear and
+										actionable feedback if required.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
@@ -145,17 +142,16 @@ export default function CaseStudyEPA() {
 											Scalable and adaptable.
 										</strong>{' '}
 										We follow a continuous improvement
-										process each year to ensure the
-										assessments continue to meet the
-										Government standard, whilst providing
-										consistent assessment for the current
-										cohort. Since starting the EPA process,
-										Simon has trained and onboarded two
-										additional assessors using a training
-										program that he created.
+										process each year to improve the process
+										and ensure that it continues to meet the
+										Government standard. We have produced
+										clear onboarding documentation and since
+										starting the EPA process, Simon has
+										trained and onboarded two additional
+										assessors using a training program that
+										he created.
 									</span>
 								</li>
-
 								<li className="flex gap-x-3">
 									<CodeBracketSquareIcon
 										className="mt-1 h-5 w-5 flex-none text-primary-500"
@@ -165,9 +161,12 @@ export default function CaseStudyEPA() {
 										<strong className="font-semibold">
 											Automation and project management.
 										</strong>{' '}
-										We have automated the document
-										generation process, and use Trello to
-										track apprentices through the process.
+										We have automated the process where
+										possible to allow the assessors to focus
+										on grading rather than admin tasks. We
+										use Trello to track apprentices through
+										the process, with clear transparency for
+										the Sheffield Hallam teaching team.
 									</span>
 								</li>
 							</ul>
@@ -178,15 +177,15 @@ export default function CaseStudyEPA() {
 							<blockquote className="italic">
 								<p>
 									“The EPA process and materials that Simon
-									designed [...] are incredibly clear, concise
-									and leave no room for error. Simon has
-									instilled a culture of continuous
-									improvement, and is always looking for ways
-									to tighten up the assessment process. Simon
-									also leads and coordinates the moderation
-									sessions to ensure a consistent grading
-									approach, as well as feedback given to the
-									teaching team at Sheffield Hallam.”
+									designed are incredibly clear, concise and
+									leave no room for error. Simon has instilled
+									a culture of continuous improvement, and is
+									always looking for ways to tighten up the
+									assessment process. Simon also leads and
+									coordinates the moderation sessions to
+									ensure a consistent grading approach, as
+									well as feedback given to the teaching team
+									at Sheffield Hallam.”
 								</p>
 							</blockquote>
 							<figcaption className="mt-6 flex gap-x-4">
