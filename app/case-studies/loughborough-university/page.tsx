@@ -153,7 +153,7 @@ export default function CaseStudyLboro() {
 						</p>
 						<div className="flex mt-5 bg-black ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
 							<img
-								src="/our-work/lboro/cft.png"
+								src="/case-studies/lboro/cft.png"
 								className="w-96"
 							/>
 							<p>
@@ -190,7 +190,7 @@ export default function CaseStudyLboro() {
 						</div>
 						<div className="flex mt-10 bg-black ring-1 ring-grey-500 p-5 gap-5 rounded-lg flex-col">
 							<img
-								src="/our-work/lboro/numeralis.svg"
+								src="/case-studies/lboro/numeralis.svg"
 								className="w-96"
 							/>
 							<p>
@@ -257,7 +257,7 @@ export default function CaseStudyLboro() {
 						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/lboro/numeralis-home.png"
+								src="/case-studies/lboro/numeralis-home.png"
 								alt="The homepage of the Numeralis application."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
@@ -269,7 +269,7 @@ export default function CaseStudyLboro() {
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/lboro/cft-rules.png"
+								src="/case-studies/lboro/cft-rules.png"
 								alt="The rules page of the Cognitive Function Task application."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
@@ -282,7 +282,7 @@ export default function CaseStudyLboro() {
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/lboro/cft-task.png"
+								src="/case-studies/lboro/cft-task.png"
 								alt="The task configuration page of the Cognitive Function Task application."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">

@@ -175,7 +175,7 @@ export default function CaseStudyPP() {
 						<div className="relative overflow-hidden">
 							<img
 								className="md:w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 w-[48rem]"
-								src="/our-work/pp/pp-level.png"
+								src="/case-studies/pp/pp-level.png"
 								alt="The rules page of the Cognitive Function Task application."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
@@ -190,7 +190,7 @@ export default function CaseStudyPP() {
 						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/pp/pp-home.png"
+								src="/case-studies/pp/pp-home.png"
 								alt="The level select screen of Pirate Plunder."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
@@ -203,7 +203,7 @@ export default function CaseStudyPP() {
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
-								src="/our-work/pp/pp-shop.png"
+								src="/case-studies/pp/pp-shop.png"
 								alt="Pirate Plunder's shop, where players can spend coins they earn playing the game to customise their character."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">

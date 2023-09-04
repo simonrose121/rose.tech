@@ -168,7 +168,7 @@ export default function CaseStudyWGC() {
 						<div className="relative overflow-hidden">
 							<img
 								className="md:w-full mt-10 rounded-xl ring-1 ring-grey-500 w-[48rem]"
-								src="/our-work/wgc/qaurum.png"
+								src="/case-studies/wgc/qaurum.png"
 								alt="Qaurum, a full-stack application that uses complex financial logic to determine gold's implied returns in a range of scenarios."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
@@ -183,7 +183,7 @@ export default function CaseStudyWGC() {
 					<div className="relative lg:mt-10 lg:col-span-5 lg:sticky overflow-hidden">
 						<img
 							className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]"
-							src="/our-work/wgc/gram.png"
+							src="/case-studies/wgc/gram.png"
 							alt=""
 						/>
 						<figcaption className="mt-2 flex gap-x-4 text-sm">

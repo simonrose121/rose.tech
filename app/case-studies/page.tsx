@@ -158,7 +158,7 @@ export default function CaseStudies() {
 										</div>
 										<div className="flex basis-1/3">
 											<img
-												src={`/our-work/thumbnails/${post.bgUrl}`}
+												src={`/case-studies/thumbnails/${post.bgUrl}`}
 												alt=""
 												className="absolute -z-10 object-cover rotate-12 -translate-y-14 rounded-lg w-full h-96 shadow-lg"
 												style={{

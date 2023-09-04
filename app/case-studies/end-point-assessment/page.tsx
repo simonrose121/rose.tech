@@ -206,7 +206,7 @@ export default function CaseStudyEPA() {
 						<div className="relative p-1 mt-10 lg:sticky overflow-hidden">
 							<img
 								className="w-[48rem] max-w-none rounded-xl sm:w-[57rem]"
-								src="/our-work/epa/process.png"
+								src="/case-studies/epa/process.png"
 								alt=""
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
