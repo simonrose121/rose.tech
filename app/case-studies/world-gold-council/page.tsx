@@ -4,6 +4,16 @@ import {
 	TrophyIcon,
 	UserCircleIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'World Gold Council Case Study | RoseTech',
+	description:
+		'We designed and developed performant and user-friendly financial dashboards and websites for the World Gold Council.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 const stats = [
 	{ label: 'Projects Delivered', value: '27' },
@@ -56,8 +66,9 @@ export default function CaseStudyWGC() {
 						}
 					</div>
 					<p className="text-xl">
-						We designed and developed financial dashboards and
-						websites for the World Gold Council.
+						We designed and developed performant and user-friendly
+						financial dashboards and websites for the World Gold
+						Council.
 					</p>
 					<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (

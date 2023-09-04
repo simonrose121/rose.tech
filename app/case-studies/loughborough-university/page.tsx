@@ -6,6 +6,16 @@ import {
 	PuzzlePieceIcon,
 	WrenchIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Loughborough University Case Study | RoseTech',
+	description:
+		'RoseTech designed, developed and deployed bespoke software for two research projects for the Centre for Mathematical Cognition at Loughborough University.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 export default function CaseStudyLboro() {
 	return (

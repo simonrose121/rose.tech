@@ -5,6 +5,16 @@ import {
 	ScaleIcon,
 	WrenchScrewdriverIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'End Point Assessment Case Study | RoseTech',
+	description:
+		'Simon created and implemented an end-point assessment process for an apprenticeship scheme run by Sheffield Hallam University.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 const stats = [
 	{ label: 'Years Active', value: '4' },

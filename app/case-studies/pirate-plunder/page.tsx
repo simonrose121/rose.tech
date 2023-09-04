@@ -4,6 +4,16 @@ import {
 	GiftIcon,
 	LanguageIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Pirate Plunder Case Study | RoseTech',
+	description:
+		'Pirate Plunder is a puzzle game that Simon created for his PhD, it teaches procedural abstraction using a block-based programming language.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 const stats = [
 	{ label: 'Players', value: '294' },
@@ -55,9 +65,9 @@ export default function CaseStudyPP() {
 						}
 					</div>
 					<p className="text-xl">
-						Simon created Pirate Plunder for his PhD. The game aims
-						to teach procedural abstraction using a block-based
-						programming language.
+						Pirate Plunder is a puzzle game that Simon created for
+						his PhD, it teaches procedural abstraction using a
+						block-based programming language.
 					</p>
 				</div>
 				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">

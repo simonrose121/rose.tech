@@ -6,6 +6,16 @@ import {
 	SquaresPlusIcon,
 	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'MTa Immersion Case Study | RoseTech',
+	description:
+		"RoseTech led on a successful rebuild of MTa Learning's online platform, MTa Immersion.",
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 const stats = [
 	{ label: 'Projects Delivered', value: '18' },

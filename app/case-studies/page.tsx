@@ -1,9 +1,19 @@
 import Link from 'next/link';
-import { Client, clients } from '../components/clients';
+import { Client, clients } from '@/app/components/clients';
+import { Metadata } from 'next';
 
 const logoColour = 'white';
 const logoWidth = '40px';
 const logoHeight = '80px';
+
+export const metadata: Metadata = {
+	title: 'Case Studies | RoseTech',
+	description:
+		'Read about how RoseTech have implemented software, strategy and process for our clients.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 type CaseStudy = {
 	id: number;

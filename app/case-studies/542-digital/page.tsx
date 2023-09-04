@@ -10,6 +10,16 @@ import {
 	UserGroupIcon,
 	ViewColumnsIcon,
 } from '@heroicons/react/24/outline';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: '542 Digital Case Study | RoseTech',
+	description:
+		'We implemented sweeping technical, strategy and process changes across the business in the 21 months we worked with 542 Digital. Transforming the business in a time of rapid growth.',
+	icons: {
+		icon: '/icon.svg',
+	},
+};
 
 const stats = [
 	{ label: 'Projects Delivered', value: '27' },
@@ -86,14 +96,13 @@ export default function CaseStudy542() {
 								Front-end Expansion
 							</h2>
 							<p className="mt-2">
-								When Simon at RoseTech started working with 542
-								Digital in July 2021, their front-end web
-								applications had been implemented using vanilla
-								JavaScript and jQuery. Whilst this was
-								functional, an increase in the number and
-								complexity of projects meant that the front-end
-								team needed expanding and the tech stack
-								updated.
+								When RoseTech started working with 542 Digital
+								in July 2021, their front-end web applications
+								had been implemented using vanilla JavaScript
+								and jQuery. Whilst this was functional, an
+								increase in the number and complexity of
+								projects meant that the front-end team needed
+								expanding and the tech stack updated.
 							</p>
 							<ul role="list" className="mt-8 max-w-xl space-y-8">
 								<li className="flex gap-x-3">
