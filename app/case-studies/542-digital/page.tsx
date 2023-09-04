@@ -87,10 +87,6 @@ export default function CaseStudy542() {
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
 							<h2 className="font-semibold text-xl relative">
-								<CodeBracketIcon
-									className="isolate w-10 h-10 mb-4 text-white"
-									aria-hidden="true"
-								/>
 								Front-end Expansion
 							</h2>
 							<p className="mt-2">
@@ -217,10 +213,6 @@ export default function CaseStudy542() {
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
 							<h2 className="font-semibold text-xl">
-								<ArrowPathIcon
-									className="isolate mb-4 w-10 h-10 text-white"
-									aria-hidden="true"
-								/>
 								Business Process Improvements
 							</h2>
 							<p className="mt-2">
@@ -313,10 +305,6 @@ export default function CaseStudy542() {
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
 							<h2 className="font-semibold text-xl">
-								<ArrowTrendingUpIcon
-									className="isolate w-10 h-10 mb-4 text-white"
-									aria-hidden="true"
-								/>
 								Growth Consultancy
 							</h2>
 							<p className="mt-2">
