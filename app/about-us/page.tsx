@@ -71,40 +71,39 @@ export default function AboutUs() {
 								freelance and in-house whilst completing his
 								Software Engineering degree and subsequent
 								Masters. After completing his PhD in Computer
-								Science and a COVID-curtailed backpacking trip,
-								Simon started RoseTech with the aim of using his
-								unique blend of software engineering experience,
-								academic rigour and organisational skills to
-								build software.
+								Science, Simon started RoseTech with the aim of
+								using his unique blend of software engineering
+								experience, academic rigour and organisational
+								skills to build software.
 								<br />
 								<br />
 								Since then, RoseTech have been creating value
 								for our clients through high-quality software
 								development, pragmatic strategy and clear
-								organisational processes. We've created software
-								for{' '}
+								organisational processes. We've created
+								full-stack software for{' '}
 								<Link
 									href="/case-studies/lougborough-university"
 									className="underline"
 								>
-									academic projects
+									research projects
 								</Link>
-								, and have expanded into technology leadership
-								across{' '}
+								, and have expanded into software development
+								and technology leadership across{' '}
 								<Link
 									href="/case-studies/world-gold-council"
 									className="underline"
 								>
-									fintech
+									FinTech
 								</Link>{' '}
 								and{' '}
 								<Link
 									href="/case-studies/mta-immersion"
 									className="underline"
 								>
-									edtech
-								</Link>{' '}
-								projects. We've undertaken{' '}
+									EdTech
+								</Link>
+								. In addition, we do{' '}
 								<Link
 									href="/case-studies/end-point-assessment"
 									className="underline"

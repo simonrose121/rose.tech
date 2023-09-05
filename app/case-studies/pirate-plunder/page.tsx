@@ -3,6 +3,7 @@ import {
 	CircleStackIcon,
 	GiftIcon,
 	LanguageIcon,
+	PuzzlePieceIcon,
 } from '@heroicons/react/24/outline';
 import { Metadata } from 'next';
 
@@ -125,6 +126,22 @@ export default function CaseStudyPP() {
 										explore how children used the game
 										features and the block-based programming
 										environment.
+									</span>
+								</li>
+								<li className="flex gap-x-3">
+									<PuzzlePieceIcon
+										className="mt-1 h-5 w-5 flex-none text-primary-500"
+										aria-hidden="true"
+									/>
+									<span>
+										<strong className="font-semibold">
+											Challenge-driven.
+										</strong>{' '}
+										We harnessed the latest game design and
+										computational thinking research to
+										design levels that introduce programming
+										concepts in a way that is challenging
+										but not frustrating.
 									</span>
 								</li>
 								<li className="flex gap-x-3">
