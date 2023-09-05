@@ -73,7 +73,7 @@ export default function AboutUs() {
 								Masters. After completing his PhD in Computer
 								Science, Simon started RoseTech with the aim of
 								using his unique blend of software engineering
-								experience, academic rigour and organisational
+								expertise, academic rigour and organisational
 								skills to build software.
 								<br />
 								<br />
