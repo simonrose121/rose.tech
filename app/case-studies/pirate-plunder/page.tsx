@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const stats = [
 	{ label: 'Players', value: '300+' },
 	{ label: 'Languages', value: '2' },
-	{ label: 'Research Publications', value: '5' },
+	{ label: 'Research Publications', value: '3' },
 ];
 
 export default function CaseStudyPP() {
@@ -194,8 +194,8 @@ export default function CaseStudyPP() {
 									Technologies Used
 								</dt>
 								<dd className="text-md font-bold tracking-tight text-white">
-									TypeScript, Angular, PixiJS, NodeJS, Express,
-									MongoDB, Ubuntu
+									TypeScript, Angular, PixiJS, NodeJS,
+									Express, MongoDB, Ubuntu
 								</dd>
 							</div>
 						</dl>
