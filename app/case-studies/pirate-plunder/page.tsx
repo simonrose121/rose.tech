@@ -194,7 +194,7 @@ export default function CaseStudyPP() {
 									Technologies Used
 								</dt>
 								<dd className="text-md font-bold tracking-tight text-white">
-									TypeScript, Angular, NodeJS, Express,
+									TypeScript, Angular, PixiJS, NodeJS, Express,
 									MongoDB, Ubuntu
 								</dd>
 							</div>
