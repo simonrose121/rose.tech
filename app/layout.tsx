@@ -19,7 +19,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className="h-full font-light">
+		<html lang="en" className="h-full font-light scroll-smooth">
 			<Analytics TrackingId="G-4V9LE726Q7" />
 			<body className="h-full">
 				<Header></Header>
