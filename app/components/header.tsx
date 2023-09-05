@@ -8,8 +8,8 @@ import { usePathname } from 'next/navigation';
 export const navigation = {
 	pages: [
 		{ name: 'Home', href: '/' },
-		// { name: 'Case Studies', href: '/case-studies' },
-		// { name: 'Our Journey', href: '/our-journey' },
+		{ name: 'Case Studies', href: '/case-studies' },
+		{ name: 'About Us', href: '/about-us' },
 	],
 	social: [
 		{
@@ -69,7 +69,10 @@ export default function Header() {
 				</div>
 				<div className="hidden lg:flex lg:gap-x-12">
 					{navigation.pages.map((item) => {
-						const active = pathname === item.href;
+						const active =
+							item.href !== '/'
+								? pathname.includes(item.href)
+								: pathname === item.href;
 						return (
 							<a
 								key={item.name}
@@ -116,7 +119,10 @@ export default function Header() {
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 py-6">
 								{navigation.pages.map((item) => {
-									const active = pathname === item.href;
+									const active =
+										item.href !== '/'
+											? pathname.includes(item.href)
+											: pathname === item.href;
 									return (
 										<a
 											key={item.name}

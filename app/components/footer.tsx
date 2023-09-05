@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { navigation } from './header';
 
 export default function Footer() {
@@ -13,11 +14,11 @@ export default function Footer() {
 					</a>
 				</div>
 				<nav
-					className="mt-6 text-center sm:flex sm:justify-center sm:gap-12"
+					className="mt-10 text-center flex justify-center flex-col sm:flex-row sm:gap-12"
 					aria-label="Footer"
 				>
 					{navigation.pages.map((item) => (
-						<div key={item.name} className="w-24">
+						<div key={item.name} className="sm:w-24 w-full">
 							<a
 								href={item.href}
 								className="text-sm leading-6 text-white hover:text-gray-200"
@@ -26,7 +27,7 @@ export default function Footer() {
 							</a>
 						</div>
 					))}
-					<div className="w-24">
+					<div className="sm:w-24 w-full">
 						<a
 							href="/contact-us"
 							className="text-sm leading-6 text-white hover:text-gray-200"
@@ -35,21 +36,15 @@ export default function Footer() {
 						</a>
 					</div>
 				</nav>
-				<div className="mt-6 flex justify-center space-x-10">
-					{navigation.social.map((item) => (
-						<a
-							key={item.name}
-							href={item.href}
-							className="text-white hover:text-gray-200"
-						>
-							<span className="sr-only">{item.name}</span>
-							<item.icon className="h-6 w-6" aria-hidden="true" />
-						</a>
-					))}
-				</div>
-				<p className="mt-10 text-center text-xs leading-5 text-gray-500">
+				<p className="mt-10 text-center text-xs leading-5 text-grey-300">
 					&copy; {new Date().getFullYear()} Rose Technologies Limited.
-					All rights reserved.
+					All rights reserved.{' '}
+					<Link href="/terms-and-conditions" className="underline">
+						Terms and Conditions.
+					</Link>{' '}
+					<Link href="/privacy-policy" className="underline">
+						Privacy Policy.
+					</Link>
 					<br />
 					Rose Technologies Limited is a registered company in the UK
 					with company number 13572983.

@@ -62,7 +62,7 @@ export default function Testimonials() {
 			than I had described in the brief, and the
 			functionality was excellent, integrating all
 			the complex elements of my design.`,
-			name: 'Kelly Tresize',
+			name: 'Kelly Trezise',
 			position: 'Research Fellow at Loughborough University',
 			image: 'https://media.licdn.com/dms/image/C5603AQFLoY5RC6DLWA/profile-displayphoto-shrink_800_800/0/1624324173318?e=1697068800&v=beta&t=MuqGNiKrLb386QhUjrf1owcCY4JK22ZiYcWo_nxZFaU',
 		},
