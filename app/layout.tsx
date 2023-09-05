@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Header from './components/header';
 import Footer from './components/footer';
 import Analytics from './components/analytics';
+import CookiesAlert from './components/cookies-alert';
 
 export const metadata: Metadata = {
 	title: 'RoseTech | Assessing Needs, Creating Solutions.',
@@ -23,6 +24,7 @@ export default function RootLayout({
 			<body className="h-full">
 				<Header></Header>
 				{children}
+				<CookiesAlert></CookiesAlert>
 				<Footer></Footer>
 			</body>
 		</html>
