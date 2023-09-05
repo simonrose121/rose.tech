@@ -42,11 +42,11 @@ export default function AboutUs() {
 				/>
 			</div>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<div className="mx-auto max-w-2xl text-center">
+				<div className="mx-auto max-w-3xl text-center">
 					<h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
 						About Us
 					</h2>
-					<p className="mt-2 text-lg leading-8 text-gray-200">
+					<p className="mt-2 text-lg leading-7 text-gray-200">
 						RoseTech are into their {yearsFromStart}th year
 						delivering software, strategy and process for our
 						clients.
@@ -54,7 +54,7 @@ export default function AboutUs() {
 				</div>
 				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 mt-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10">
+						<div className="mt-16">
 							<h3 className="text-2xl font-semibold">
 								Who We Are
 							</h3>
@@ -129,7 +129,7 @@ export default function AboutUs() {
 							</p>
 						</div>
 					</div>
-					<div className="sm:mt-10 lg:col-span-5">
+					<div className="sm:mt-16 lg:col-span-5">
 						<img
 							src="/about-us/chi.png"
 							alt="Simon at CHI2019 in Scotland"
