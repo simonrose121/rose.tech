@@ -66,10 +66,10 @@ export default function CaseStudyLboro() {
 						Mathematical Cognition at Loughborough University.
 					</p>
 				</div>
-				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 mt-0 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-16 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
-							<p className="mt-10">
+						<div className="max-w-2xl">
+							<p>
 								We used our expertise in software development
 								and experience conducting research in schools to
 								deliver two bespoke and complex full-stack
@@ -239,7 +239,7 @@ export default function CaseStudyLboro() {
 						</div>
 					</div>
 					<div className="lg:col-span-5">
-						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
+						<figure className="border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“Simon did a fantastic job on my app. The

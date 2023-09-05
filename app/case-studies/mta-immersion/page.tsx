@@ -71,7 +71,7 @@ export default function CaseStudyMTa() {
 						RoseTech led on a successful rebuild of MTa Learning's
 						online platform, MTa Immersion.
 					</p>
-					<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
+					<dl className="mt-10 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
@@ -84,9 +84,9 @@ export default function CaseStudyMTa() {
 						))}
 					</dl>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-16 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<p>
 								MTa Immersion takes MTa Learning's successful
 								experiential learning experiences online. MTa
@@ -226,7 +226,7 @@ export default function CaseStudyMTa() {
 						</div>
 					</div>
 					<div className="lg:col-span-5">
-						<figure className="lg:mt-10 border-l border-grey-500 pl-9">
+						<figure className="border-l border-grey-500 pl-9">
 							<blockquote className="italic">
 								<p>
 									“As part of the rebuild, Simon demonstrated

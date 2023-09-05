@@ -69,22 +69,22 @@ export default function CaseStudyPP() {
 						his PhD, it teaches procedural abstraction using a
 						block-based programming language.
 					</p>
+					<dl className="mt-10 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
+						{stats.map((stat, statIdx) => (
+							<div key={statIdx}>
+								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
+									{stat.value}
+								</dd>
+								<dt className="text-sm leading-6 text-grey-200">
+									{stat.label}
+								</dt>
+							</div>
+						))}
+					</dl>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-16 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<dl className="mt-0 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
-							{stats.map((stat, statIdx) => (
-								<div key={statIdx}>
-									<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
-										{stat.value}
-									</dd>
-									<dt className="text-sm leading-6 text-grey-200">
-										{stat.label}
-									</dt>
-								</div>
-							))}
-						</dl>
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<p>
 								Pirate Plunder is a puzzle game where the player
 								must program a ship to collect coins and
@@ -186,12 +186,13 @@ export default function CaseStudyPP() {
 							<img
 								className="md:w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 w-[48rem]"
 								src="/case-studies/pp/pp-level.png"
-								alt="The rules page of the Cognitive Function Task application."
+								alt="A sample level from Pirate Plunder using a parameterised function to implement repeating functionality."
 							/>
 							<figcaption className="mt-2 flex gap-x-4 text-sm">
 								<p>
-									The rules page of the Cognitive Function
-									Task application.
+									A sample level from Pirate Plunder using a
+									parameterised function to implement
+									repeating functionality.
 								</p>
 							</figcaption>
 						</div>
@@ -209,7 +210,6 @@ export default function CaseStudyPP() {
 								</p>
 							</figcaption>
 						</div>
-
 						<div className="relative p-1 mt-10 lg:sticky lg:overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"

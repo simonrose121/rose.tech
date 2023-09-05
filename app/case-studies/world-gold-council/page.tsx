@@ -70,7 +70,7 @@ export default function CaseStudyWGC() {
 						financial dashboards and websites for the World Gold
 						Council.
 					</p>
-					<dl className="mt-0 flex justify-start gap-8 flex-col sm:flex-row sm:mt-10">
+					<dl className="mt-10 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
@@ -83,9 +83,9 @@ export default function CaseStudyWGC() {
 						))}
 					</dl>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-0 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-16 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
-						<div className="mt-10 max-w-2xl">
+						<div className="max-w-2xl">
 							<p>
 								We worked with the World Gold Council (WGC)
 								during our time at 542 Digital. 542's front-end
@@ -191,7 +191,7 @@ export default function CaseStudyWGC() {
 							</figcaption>
 						</div>
 					</div>
-					<div className="relative lg:mt-10 lg:col-span-5 lg:sticky overflow-hidden">
+					<div className="relative lg:col-span-5 lg:sticky overflow-hidden">
 						<img
 							className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem]"
 							src="/case-studies/wgc/gram.png"

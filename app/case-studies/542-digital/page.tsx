@@ -76,7 +76,7 @@ export default function CaseStudy542() {
 						with 542 Digital. Transforming the business in a time of
 						rapid growth.
 					</p>
-					<dl className="mt-10 flex justify-start gap-8 flex-col sm:flex-row">
+					<dl className="mt-10 flex justify-start gap-8 flex-wrap flex-row sm:mt-10">
 						{stats.map((stat, statIdx) => (
 							<div key={statIdx}>
 								<dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">
@@ -89,7 +89,7 @@ export default function CaseStudy542() {
 						))}
 					</dl>
 				</div>
-				<div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
+				<div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-16 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-12">
 					<div className="max-w-xl text-base leading-7 lg:col-span-7">
 						<div className="max-w-2xl">
 							<h2 className="font-semibold text-xl relative">
