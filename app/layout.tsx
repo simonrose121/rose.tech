@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import Header from './components/header';
 import Footer from './components/footer';
+import Analytics from './components/analytics';
 
 export const metadata: Metadata = {
 	title: 'RoseTech | Assessing Needs, Creating Solutions.',
@@ -18,6 +19,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className="h-full font-light">
+			<Analytics TrackingId="G-4V9LE726Q7" />
 			<body className="h-full">
 				<Header></Header>
 				{children}

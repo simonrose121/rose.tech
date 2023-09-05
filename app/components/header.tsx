@@ -119,7 +119,10 @@ export default function Header() {
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 py-6">
 								{navigation.pages.map((item) => {
-									const active = pathname === item.href;
+									const active =
+										item.href !== '/'
+											? pathname.includes(item.href)
+											: pathname === item.href;
 									return (
 										<a
 											key={item.name}
