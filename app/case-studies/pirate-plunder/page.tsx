@@ -201,7 +201,7 @@ export default function CaseStudyPP() {
 						</dl>
 						<div className="relative overflow-hidden">
 							<img
-								className="md:w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 w-[48rem]"
+								className="w-full mt-10 max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[48rem]"
 								src="/case-studies/pp/pp-level.png"
 								alt="A sample level from Pirate Plunder using a parameterised function to implement repeating functionality."
 							/>
