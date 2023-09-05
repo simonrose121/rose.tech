@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-	{ label: 'Players', value: '294' },
-	{ label: 'Languages Supported', value: '2' },
+	{ label: 'Players', value: '300+' },
+	{ label: 'Languages', value: '2' },
 	{ label: 'Research Publications', value: '5' },
 ];
 
@@ -198,7 +198,7 @@ export default function CaseStudyPP() {
 						</div>
 					</div>
 					<div className="lg:col-span-5">
-						<div className="relative p-1 lg:mt-10 lg:sticky overflow-hidden">
+						<div className="relative p-1 lg:sticky overflow-hidden">
 							<img
 								className="w-full max-w-none rounded-xl ring-1 ring-grey-500 lg:w-[57rem]"
 								src="/case-studies/pp/pp-home.png"
