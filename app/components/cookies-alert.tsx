@@ -18,7 +18,7 @@ export default function CookiesAlert() {
 
 	return (
 		showCookiesAlert && (
-			<div className="w-96 fixed z-10 p-5 bg-black ring-1 ring-grey-500 bottom-5 right-5 rounded-xl">
+			<div className="w-full md:w-96 md:fixed sticky z-10 p-5 bg-black ring-1 ring-grey-500 md:bottom-5 bottom-0 right-5 rounded-xl">
 				<div className="flex justify-between flex-col gap-6">
 					<div className="flex flex-col flex-start">
 						<h2 className="font-semibold">
