@@ -391,7 +391,7 @@ export default function Clients() {
 		<div className="bg-black py-24 sm:py-32" id="clients">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="text-center text-lg leading-8 text-white">
-					Trusted across finance, edtech, academia, advertising and
+					Trusted across finance, education, academia, advertising and
 					retail.
 				</h2>
 				<div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-12 lg:mx-0 lg:max-w-none lg:grid-cols-8">
