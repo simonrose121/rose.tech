@@ -10,7 +10,7 @@ export default function Footer() {
 				<div className="flex justify-center">
 					<a href="#" className="-m-1.5 p-1.5">
 						<span className="sr-only">RoseTech</span>
-						<img className="h-8 w-auto" src="logo.svg" alt="" />
+						<img className="h-8 w-auto" src="/logo.svg" alt="" />
 					</a>
 				</div>
 				<nav
