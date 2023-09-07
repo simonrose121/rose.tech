@@ -15,6 +15,7 @@ import CaseStudyList, { CaseStudyListItem } from '../components/list';
 import Button from '@/app/components/button';
 import CaseStudyTechnologies from '../components/technologies';
 import CaseStudyScreenshot from '../components/screenshot';
+import CaseStudyApproach from '../components/approach';
 
 export const metadata: Metadata = {
 	title: 'Pirate Plunder Case Study | RoseTech',
@@ -41,7 +42,7 @@ export default function CaseStudyPP() {
 			/>
 			<CaseStudyContent>
 				<CaseStudyContentLeft>
-					<div className="max-w-2xl">
+					<CaseStudyApproach>
 						<p>
 							Pirate Plunder is a puzzle game where the player
 							must program a ship to collect coins and treasure
@@ -49,13 +50,13 @@ export default function CaseStudyPP() {
 							effective in teaching children to use 'custom
 							blocks' for procedural abstraction in Scratch-based
 							programming languages.
-							<br />
-							<br />
+						</p>
+						<p>
 							Pirate Plunder has been used by the Federal Center
 							for Technological Education of Rio de Janeiro as
 							part of their programming curriculum.
-							<br />
-							<br />
+						</p>
+						<p>
 							In the design and development of Pirate Plunder, we
 							used the following approach:
 						</p>
@@ -106,10 +107,11 @@ export default function CaseStudyPP() {
 								Portuguese.
 							</CaseStudyListItem>
 						</CaseStudyList>
-					</div>
+					</CaseStudyApproach>
 					<Button
 						href="https://pirateplunder.app"
-						text="Pirate Plunder →"
+						text="Pirate Plunder"
+						external
 					/>
 					<CaseStudyTechnologies
 						technologies="TypeScript, Angular, PixiJS, NodeJS, Express, MongoDB,

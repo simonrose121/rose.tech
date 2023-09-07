@@ -15,7 +15,11 @@ export function CaseStudyContentRight({
 }: {
 	children: React.ReactNode;
 }) {
-	return <div className="flex flex-col gap-10 lg:col-span-5">{children}</div>;
+	return (
+		<div className="max-w-xl flex flex-col gap-10 lg:col-span-5">
+			{children}
+		</div>
+	);
 }
 
 export default function CaseStudyContent({

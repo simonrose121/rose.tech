@@ -8,10 +8,10 @@ export default function CaseStudyHeader({
 }: {
 	client: string;
 	introText: string;
-	stats: Array<Stats>;
+	stats?: Array<Stats>;
 }) {
 	return (
-		<div className="mx-auto max-w-2xl lg:mx-0">
+		<div className="w-full mx-auto max-w-2xl lg:max-w-none">
 			<div
 				style={{
 					fill: 'white',
@@ -26,8 +26,8 @@ export default function CaseStudyHeader({
 					)?.svg
 				}
 			</div>
-			<p className="text-xl">{introText}</p>
-			<CaseStudyStats stats={stats} />
+			<p className="text-xl max-w-xl lg:max-w-none">{introText}</p>
+			{stats ? <CaseStudyStats stats={stats} /> : <></>}
 		</div>
 	);
 }

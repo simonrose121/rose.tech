@@ -28,7 +28,7 @@ export default function CaseStudyList({
 	children: React.ReactNode;
 }) {
 	return (
-		<ul role="list" className="mt-8 max-w-xl space-y-8">
+		<ul role="list" className="max-w-xl space-y-5">
 			{children}
 		</ul>
 	);
