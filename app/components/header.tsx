@@ -4,6 +4,7 @@ import { JSX, SVGProps, useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 export const navigation = {
 	pages: [
@@ -48,9 +49,11 @@ export default function Header() {
 				<div className="flex lg:flex-1">
 					<a href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">RoseTech</span>
-						<img
+						<Image
 							className="h-8 w-auto"
-							src="logo.svg"
+							width="200"
+							height="80"
+							src="/logo.svg"
 							alt="RoseTech Logo"
 						/>
 					</a>
@@ -104,7 +107,13 @@ export default function Header() {
 					<div className="flex items-center justify-between">
 						<a href="#" className="-m-1.5 p-1.5">
 							<span className="sr-only">RoseTech</span>
-							<img className="h-8 w-auto" src="logo.svg" alt="" />
+							<Image
+								className="h-8 w-auto"
+								width="200"
+								height="80"
+								src="/logo.svg"
+								alt="RoseTech Logo"
+							/>
 						</a>
 						<button
 							type="button"
