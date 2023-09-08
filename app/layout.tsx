@@ -11,6 +11,23 @@ export const metadata: Metadata = {
 	icons: {
 		icon: '/icon.svg',
 	},
+	authors: [
+		{
+			name: 'Simon Rose',
+			url: 'https://www.simon-rose.co.uk',
+		},
+	],
+	openGraph: {
+		title: 'RoseTech | Assessing Needs, Creating Solutions.',
+		description: 'RoseTech drives organisations towards software success.',
+		images: [
+			{
+				url: '/social.png',
+				width: '1200',
+				height: '627',
+			},
+		],
+	},
 };
 
 export default function RootLayout({
