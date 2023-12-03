@@ -103,11 +103,6 @@ export default function Testimonials() {
 										<p>{`“${testimonial.text}”`}</p>
 									</blockquote>
 									<figcaption className="mt-6 flex items-center gap-x-4">
-										<img
-											className="h-10 w-10 rounded-full bg-gray-50 ring-1 ring-grey-500"
-											src={testimonial.image}
-											alt=""
-										/>
 										<div>
 											<div className="font-semibold text-white">
 												{testimonial.name}
