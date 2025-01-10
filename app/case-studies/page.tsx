@@ -40,16 +40,6 @@ const caseStudies: Array<CaseStudy> = [
 	{
 		id: 2,
 		client: clients(logoColour, logoWidth, logoHeight).find(
-			(c) => c.name === 'World Gold Council'
-		),
-		href: '/case-studies/world-gold-council',
-		description: `Development of financial dashboards using a performant and reusable solution.`,
-		bgUrl: 'wgc.png',
-		colour: '#886116',
-	},
-	{
-		id: 3,
-		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'MTa Learning'
 		),
 		href: '/case-studies/mta-immersion',
@@ -59,7 +49,7 @@ const caseStudies: Array<CaseStudy> = [
 		name: 'MTa Immersion',
 	},
 	{
-		id: 4,
+		id: 3,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Sheffield Hallam University'
 		),
@@ -70,7 +60,7 @@ const caseStudies: Array<CaseStudy> = [
 		name: 'End Point Assessment',
 	},
 	{
-		id: 5,
+		id: 4,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Loughborough University'
 		),
@@ -81,7 +71,7 @@ const caseStudies: Array<CaseStudy> = [
 		name: 'Mathematical Research Software',
 	},
 	{
-		id: 7,
+		id: 5,
 		client: clients(logoColour, logoWidth, logoHeight).find(
 			(c) => c.name === 'Sheffield Hallam University'
 		),
